@@ -1,6 +1,14 @@
-import {space_grotesk } from './utils/fonts'
-import "./globals.css";
+import { Space_Grotesk } from 'next/font/google';
 import SmoothScrolling from "@/components/SmoothScrolling";
+import "./globals.css";
+
+export const space_grotesk_init = Space_Grotesk({
+  weight: ['400', '500', '700'],
+  style: ['normal'],
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-space_grotesk',
+});
 
 export const metadata = {
   title: "Create Next App",
@@ -10,11 +18,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={` ${space_grotesk} antialiased`}
-      >
-        <SmoothScrolling><main className="space_grotesk">{children}</main></SmoothScrolling>
-        
+      <body className={`${space_grotesk_init.variable}`}>
+        <SmoothScrolling><main className='space_grotesk'>{children}</main></SmoothScrolling>
       </body>
     </html>
   );
