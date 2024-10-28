@@ -18,7 +18,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${space_grotesk_init.variable}`}>
+      <body className={`${space_grotesk_init.variable} overflow-x-hidden`}>
         <SmoothScrolling><main className='space_grotesk'>{children}</main></SmoothScrolling>
       </body>
     </html>
