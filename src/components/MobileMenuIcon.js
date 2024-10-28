@@ -5,10 +5,12 @@ function MobileMenuIcon() {
     function handleClick() {
         const iconMobileMenu = document.getElementById("icon-mobile-menu");
         const mobileNav = document.getElementById("mobile-nav");
+        const html = document.querySelector("html");
         const body = document.querySelector("body");
        
             mobileNav.classList.toggle("translate-y-[0%]");
-            body.classList.toggle("overflow-hidden;");
+            html.classList.toggle("overflow-y-hidden");
+            body.classList.toggle("overflow-y-hidden");
            
     }
     
