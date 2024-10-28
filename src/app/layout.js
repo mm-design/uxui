@@ -1,5 +1,6 @@
 import {space_grotesk } from './utils/fonts'
 import "./globals.css";
+import SmoothScrolling from "@/components/SmoothScrolling";
 
 export const metadata = {
   title: "Create Next App",
@@ -12,7 +13,7 @@ export default function RootLayout({ children }) {
       <body
         className={` ${space_grotesk} antialiased`}
       >
-        <main className="space_grotesk">{children}</main>
+        <SmoothScrolling><main className="space_grotesk">{children}</main></SmoothScrolling>
         
       </body>
     </html>
