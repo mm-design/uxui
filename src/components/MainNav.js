@@ -4,7 +4,7 @@ import MobileNav from '@/components/MobileNav';
 
 function MainNav() {
     return (
-        <header className="w-full fixed z-[100] px-5 sm:px-10 py-4 mix-blend-difference">
+        <header className="w-full fixed top-0 z-[100] px-5 sm:px-10 py-4 mix-blend-difference">
             <div className='flex justify-between items-center'>
                 <MauLogo />
                 <nav className="hidden sm:flex list-none ">
