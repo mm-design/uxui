@@ -1,6 +1,8 @@
 import { Space_Grotesk } from 'next/font/google';
 import SmoothScrolling from "@/components/SmoothScrolling";
 import "./globals.css";
+import MainNav from "@/components/MainNav";
+import Footer from "@/components/Footer";
 
 export const space_grotesk_init = Space_Grotesk({
   weight: ['400', '500', '700'],
@@ -19,7 +21,14 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${space_grotesk_init.variable} overflow-x-hidden`}>
-        <SmoothScrolling><main className='space_grotesk'>{children}</main></SmoothScrolling>
+        <SmoothScrolling>
+          <main className='space_grotesk'>
+            <MainNav />
+            {children}
+
+            <Footer />
+          </main>
+        </SmoothScrolling>
       </body>
     </html>
   );

@@ -1,9 +1,8 @@
-import MobileMenuCloseIcon from '@/components/MobileMenuCloseIcon';
 
 function MobileNav() {
     return (
         <div className="fixed w-[100%] z-[90] transition-all translate-y-[-100%]" id="mobile-nav">
-            <MobileMenuCloseIcon />         
+                     
             <div className="sm:hidden px-5 sm:px-10 bg-[--light-primary] flex flex-col h-screen justify-center">
                 <div>
                     <p className="text-[13px] text-[--dark-secondary]">Mauro Micozzi</p>
