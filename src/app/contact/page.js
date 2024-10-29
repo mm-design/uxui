@@ -4,7 +4,7 @@ export default function Contact() {
   return (
         <div className="w-screen lg:h-screen lg:flex lg:flex-col lg:justify-center bg-[--light-primary] px-5 sm:px-10 py-[40vh] lg:py-0">
           <div className="container max-w-screen-xl mx-auto">
-            <h1 className="block sm:max-w-md">Prepared to help <br/>with any inquiry</h1>
+            <h1 className="block">Prepared to help <br/>with any inquiry</h1>
 
             <div className="grid grid-cols-1 gap-0 lg:grid-cols-3 lg:gap-20 mt-16">
                 <div className="">
