@@ -1,6 +1,8 @@
 import MauLogo from '@/components/MauLogo';
 import MobileMenuIcon from '@/components/MobileMenuIcon';
 import MobileNav from '@/components/MobileNav';
+import MobileMenuCloseIcon from '@/components/MobileMenuCloseIcon';
+
 
 function MainNav() {
     return (
@@ -17,6 +19,7 @@ function MainNav() {
                         <MobileMenuIcon />
                     </div>
                 </div>
+                <MobileMenuCloseIcon />
                 <MobileNav />
             </header>
            
