@@ -30,3 +30,39 @@ body {
 .space_grotesk{
   font-family: var(--font-space_grotesk);
 }
+
+h1 {
+  font-size: 35px;
+  line-height: 1.2em;
+  font-weight: 700;
+  color: var(--dark-primary);
+}
+h2 {
+  font-size: 27px;
+  line-height: 1.35em;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 19px;
+  line-height: 1.35em;
+  font-weight: 700;
+}
+
+p{
+  font-size: 15px;
+  line-height: 1.5em;
+  font-weight: 400;
+}
+
+@media (min-width: 640px) { 
+  h1 {
+    font-size: 55px;
+    line-height: 1.2em;
+  }
+  
+}
+@media (min-width: 768px) { }
+@media (min-width: 1024px) { }
+@media (min-width: 1280px) { }
+@media (min-width: 1536px) { }
