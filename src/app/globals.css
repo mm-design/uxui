@@ -55,6 +55,12 @@ p{
   font-weight: 400;
 }
 
+li{
+  font-size: 15px;
+  line-height: 1.5em;
+  font-weight: 400;
+}
+
 @media (min-width: 640px) { 
   h1 {
     font-size: 55px;

@@ -20,7 +20,7 @@ export default function CaseStudies() {
         <div className="md:flex md:justify-between container max-w-screen-xl mx-auto mt-28">
             <div className=" md:mr-5">
               <CaseCard 
-                url="/unica"
+                url="/case-studies/unica"
                 title="Unica"
                 subtitle="Web platform"
                 thumbSrc={unicaThumb}
@@ -28,7 +28,7 @@ export default function CaseStudies() {
             </div>
             <div className="mt-20 md:mt-32 md:ml-5">
               <CaseCard 
-                url="/three-uk"
+                url="/case-studies/three-uk"
                 title="Three UK"
                 subtitle="MVP of digital corporate portal"
                 thumbSrc={threeukThumb}
@@ -39,7 +39,7 @@ export default function CaseStudies() {
         <div className="md:flex md:justify-between container max-w-screen-xl mx-auto mt-20 md:mt-28">
             <div className=" md:mr-5">
               <CaseCard 
-                url="/sky-home-move"
+                url="/case-studies/sky-home-move"
                 title="Sky Home Move"
                 subtitle="Mobile app digital service"
                 thumbSrc={skyThumb}
@@ -47,7 +47,7 @@ export default function CaseStudies() {
             </div>
             <div className="mt-20 md:mt-32 md:ml-5">
               <CaseCard 
-                url="/lira"
+                url="/case-studies/lira"
                 title="L.I.R.A."
                 subtitle="Corporate website"
                 thumbSrc={liraThumb}
