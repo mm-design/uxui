@@ -7,7 +7,7 @@ function MobileMenuIcon() {
     function handleClick() {
         const iconMobileMenu = document.getElementById("icon-mobile-menu");
         const mobileNav = document.getElementById("mobile-nav");
-        const animatedLines = document.querySelectorAll(".animated-lines");
+        const animatedLines = document.querySelectorAll("header .animated-lines");
         const iconCloseMobileMenu = document.getElementById("icon-close-mobile-menu");
         const html = document.querySelector("html");
         const body = document.querySelector("body");
