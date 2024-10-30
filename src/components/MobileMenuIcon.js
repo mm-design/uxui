@@ -17,7 +17,7 @@ function MobileMenuIcon() {
         gsap.to('#bottom-line', { scale: 0, transformOrigin: '0% 100%', x: -20, duration: 0.2, ease: 'power1.in' });
         gsap.to(iconCloseMobileMenu, { scale: 1, transformOrigin: '50% 50%', duration: 0.2, ease: 'power1.in' });
         gsap.to(mobileNav, { y: 0, duration: 0.5, ease: 'power1.in' });
-        gsap.to(animatedLines, { width: '100%', duration: 0.5, stagger: 0.1, ease: 'power1.in' });       
+        gsap.to(animatedLines, { width: '100%', duration: 0.35, delay: 0.35, stagger: 0.1, ease: 'power1.in' });       
 
         // iconCloseMobileMenu.classList.remove("hidden");
         html.classList.add("overflow-y-hidden");
