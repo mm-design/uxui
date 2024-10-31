@@ -89,7 +89,7 @@ export default function CaseStudies() {
                   <p className="text-[--dark-secondary] mb-5">Three Business was on a rapid growth trajectory, aiming to prioritize a digital-first approach for both customer and channel experiences.</p>
                   <p className="text-[--dark-secondary] mb-5">The client noted that in nearly all recent corporate bids, the need for a corporate self-service portal ranked as a top priority. Delivering digital self-service capabilities was crucial to success, particularly for their medium to large corporate customers.</p>
                   <p className="text-[--dark-secondary] font-bold mb-5">At the time, Three was the only MNO without a corporate portal, limiting their ability to compete effectively in the market.</p>
-                  <p className="text-[--dark-secondary] mb-5">In June 20XX, I joined the UX Research team at NTT Data UK for the 2-3 month "Discovery Phase" to help create the MVP for the portal.</p>
+                  <p className="text-[--dark-secondary] mb-5">In June 2022, I joined the UX Research team at NTT Data UK for the 2-3 month "Discovery Phase" to help create the MVP for the portal.</p>
                 </div>
               </div>
 
@@ -270,7 +270,7 @@ export default function CaseStudies() {
                   <p className="text-[--dark-secondary] mb-5">At this point I designed different solutions for the dashboard main navigation, search functionality and quick actions.</p>
                   <p className="text-[--dark-secondary] mb-5">The introduction of the customization feature was game changer. At this point I had to design different solutions to create an initial set of widgets that could display useful information, perform quick actions and promote marketing offers.</p>
                   <p className="text-[--dark-secondary] mb-5">Before create the set of widgets it was time to finalize search funcionality, quick actions and dashboard navigation so I wireframed different options.</p>
-                  <h3 className="text-[--light-primary] mt-10 mb-3">Search and quick actions</h3>
+                  <h3 className="text-[--light-primary] mt-10 mb-5">Search and quick actions</h3>
                   <p className="text-[--dark-secondary] mb-0">Full screen and side navigation layout options</p>
                 </div>
               </div>
@@ -303,7 +303,7 @@ export default function CaseStudies() {
             <div className="relative container max-w-screen-xl mx-auto">
               <div className="md:grid md:grid-cols-12">
                 <div className="md:col-start-1 md:col-span-6 lg:col-start-1 lg:col-span-4">
-                  <h3 className="text-[--light-primary] mt-10 mb-3">Main navigation</h3>
+                  <h3 className="text-[--light-primary] mt-10 mb-5">Main navigation</h3>
                   <p className="text-[--dark-secondary] mb-0">Top, side and sticky navigation options</p>
                 </div>
               </div>
@@ -327,7 +327,7 @@ export default function CaseStudies() {
             <div className="relative container max-w-screen-xl mx-auto">
               <div className="md:grid md:grid-cols-12">
                 <div className="md:col-start-1 md:col-span-6 lg:col-start-1 lg:col-span-4">
-                  <h3 className="text-[--light-primary] mt-10 mb-3">Widgets</h3>
+                  <h3 className="text-[--light-primary] mt-10 mb-5">Widgets</h3>
                   <p className="text-[--dark-secondary] mb-0">The initial set of widgets to create the dashboard views: Corporate - BAN - MSIDN</p>
                 </div>
               </div>
@@ -354,7 +354,7 @@ export default function CaseStudies() {
             <div className="relative container max-w-screen-xl mx-auto">
               <div className="md:grid md:grid-cols-12 md:items-center">
                 <div className="md:col-start-1 md:col-span-6 lg:col-start-1 lg:col-span-4">
-                  <h3 className="text-[--light-primary] mb-3">Add new line</h3>
+                  <h3 className="text-[--light-primary] mb-5">Add new line</h3>
                   <p className="text-[--dark-secondary] mb-5">The journey has been divided in 6 steps where the user has to input all the required information to complete the action.</p>
                   <p className="text-[--dark-secondary] mb-5">The layout is composed of 2 columns:</p>
                   <ul className="list-disc pl-8 mb-6">
@@ -376,7 +376,7 @@ export default function CaseStudies() {
                 </div>
 
                 <div className="order-first lg:order-last md:col-start-1 md:col-span-6 lg:col-start-9 lg:col-span-4 mt-20 md:mt-0">
-                  <h3 className="text-[--light-primary] mt-10 md:mt-0 mb-3">Raise a case</h3>
+                  <h3 className="text-[--light-primary] mt-10 md:mt-0 mb-5">Raise a case</h3>
                   <p className="text-[--dark-secondary] mb-5">The layout is a simple one column that clearly shows the form with all the required information to raise a case.</p>
                   <p className="text-[--dark-secondary] mb-5">If users have a dedicated Customer Success Manager, the related box with its name, surname and contact number is displayed before the form.</p>
                   <p className="text-[--dark-secondary] mb-5">Once the process is completed a succesfull message is displayed and it shows the case reference number  with useful related information.</p>
@@ -438,7 +438,7 @@ export default function CaseStudies() {
              
               <div className="md:grid md:grid-cols-12 mt-10 mb-5">
                 <div className="md:col-start-1 md:col-span-6 lg:col-start-1 lg:col-span-4">               
-                  <h3 className="text-[--light-primary] mt-10 mb-3">Final UI mockups</h3>
+                  <h3 className="text-[--light-primary] mt-10 mb-5">Final UI mockups</h3>
                   <p className="text-[--dark-secondary] mb-0">Active side navigation</p>
                 </div>
               </div>    
