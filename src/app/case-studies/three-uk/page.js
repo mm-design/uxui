@@ -80,10 +80,6 @@ export default function CaseStudies() {
         </div>
 
         {/* Overview section */}
-        <div className="relative w-screen bg-[--light-primary] mt-20 pt-40">
-          <span className="text-[120px] leading-[120px] md:text-[240px] md:leading-[240px] left-[-15px] md:left-[-30px] absolute top-0 font-bold text-[--dark-secondary] opacity-20">Overview</span>
-        </div>
-
         
         <div className="w-screen bg-[--light-primary] px-5 sm:px-10 mt-20">
           <div className="relative container max-w-screen-xl mx-auto">
@@ -169,7 +165,8 @@ export default function CaseStudies() {
           </div>
         </div>
 
-        <div className="">
+        {/* Highlight section */}
+        <div>
 
           <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-40 pb-10 mt-40">
             <div className="relative container max-w-screen-xl mx-auto">
@@ -455,11 +452,10 @@ export default function CaseStudies() {
 
             </div>
           </div>
-          
         </div>
 
-        {/* Results section */}
-        <div className="relative w-screen bg-[--light-primary] px-5 sm:px-10 mt-40 pt-40">
+       {/* Results section */}
+       <div className="relative w-screen bg-[--light-primary] px-5 sm:px-10 mt-40 pt-40">
           <span className="text-[120px] leading-[120px] md:text-[240px] md:leading-[240px] left-[-15px] md:left-[-30px] absolute top-0 font-bold text-[--dark-secondary] opacity-20">Results</span>
           <div className="relative container max-w-screen-sm mx-auto mt-0 md:mt-6">
             <p className="uppercase text-[19px] leading-[23px] md:text-[21px] md:leading-[27px] text-[--dark-primary] mb-10">In just 2 months, we successfully met client expectations by providing all necessary information and materials, enabling the client to make informed decisions about the portal's development.</p>
@@ -489,14 +485,11 @@ export default function CaseStudies() {
                 />
               </div>     
           </div>
+        </div>       
             
-        </div>
-
-        
-
-
-        <ReserveFreeCall />
-        <ContactBanner />
+      <ReserveFreeCall />
+      <ContactBanner />    
+       
       </div>
   );
 }
