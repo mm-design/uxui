@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 function MobileNav() {
+    
     return (
         <div className="fixed w-[100%] z-[90] transition-all translate-y-[-100%]" id="mobile-nav">
                      
@@ -12,19 +13,19 @@ function MobileNav() {
                 <nav className="list-none my-10">
                     <li>
                         <div className="animated-lines w-0 h-[2px] bg-[--dark-primary]"></div>
-                        <Link href="case-study" className="font-medium text-[35px] text-[--dark-primary] block py-5">Case Studies</Link>
+                        <a href="../case-studies" className="font-medium text-[35px] text-[--dark-primary] block py-5">Case Studies</a>
                     </li>
                     <li>
                         <div className="animated-lines w-0 h-[2px] bg-[--dark-primary]"></div>
-                        <Link href="services" className="font-medium text-[35px] text-[--dark-primary] block py-5">Services</Link>
+                        <a href="../services" className="font-medium text-[35px] text-[--dark-primary] block py-5">Services</a>
                     </li>
                     <li>
                         <div className="animated-lines w-0 h-[2px] bg-[--dark-primary]"></div>
-                        <Link href="about" className="font-medium text-[35px] text-[--dark-primary] block py-5">About</Link>
+                        <a href="../about" className="font-medium text-[35px] text-[--dark-primary] block py-5">About</a>
                     </li>
                     <li>
                         <div className="animated-lines w-0 h-[2px] bg-[--dark-primary]"></div>
-                        <Link href="contact" className="font-medium text-[35px] text-[--dark-primary] block py-5">Contact</Link>
+                        <a href="../contact" className="font-medium text-[35px] text-[--dark-primary] block py-5">Contact</a>
                         <div className="animated-lines w-0 h-[2px] bg-[--dark-primary]"></div>
                     </li>
                 </nav>
