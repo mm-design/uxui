@@ -29,6 +29,9 @@ import threeukFinalUI5 from '../../../public/caseStudies/threeuk/threeuk-final-u
 import threeukFinalUI6 from '../../../public/caseStudies/threeuk/threeuk-final-ui-6.jpg';
 import threeukMockup1 from '../../../public/caseStudies/threeuk/threeuk-mockup-1.jpg';
 import threeukMockup2 from '../../../public/caseStudies/threeuk/threeuk-mockup-2.jpg';
+import CaseCard from "@/components/caseStudies/CaseCard";
+import unicaThumb from '../../../public/caseStudies/thumbnails/unica-thumbnail.jpg';
+import skyThumb from '../../../public/caseStudies/thumbnails/sky-thumbnail.jpg';
 
 
 export default function CaseStudies() {
@@ -77,7 +80,12 @@ export default function CaseStudies() {
         </div>
 
         {/* Overview section */}
-        <div className="w-screen bg-[--light-primary] px-5 sm:px-10 pt-[30vh]">
+        <div className="relative w-screen bg-[--light-primary] mt-20 pt-40">
+          <span className="text-[120px] leading-[120px] md:text-[240px] md:leading-[240px] left-[-15px] md:left-[-30px] absolute top-0 font-bold text-[--dark-secondary] opacity-20">Overview</span>
+        </div>
+
+        
+        <div className="w-screen bg-[--light-primary] px-5 sm:px-10 mt-20">
           <div className="relative container max-w-screen-xl mx-auto">
 
             <div className="md:grid md:grid-cols-12 md:gap-4">
@@ -449,6 +457,42 @@ export default function CaseStudies() {
           </div>
           
         </div>
+
+        {/* Results section */}
+        <div className="relative w-screen bg-[--light-primary] px-5 sm:px-10 mt-40 pt-40">
+          <span className="text-[120px] leading-[120px] md:text-[240px] md:leading-[240px] left-[-15px] md:left-[-30px] absolute top-0 font-bold text-[--dark-secondary] opacity-20">Results</span>
+          <div className="relative container max-w-screen-sm mx-auto mt-0 md:mt-6">
+            <p className="uppercase text-[19px] leading-[23px] md:text-[21px] md:leading-[27px] text-[--dark-primary] mb-10">In just 2 months, we successfully met client expectations by providing all necessary information and materials, enabling the client to make informed decisions about the portal's development.</p>
+            <p className="uppercase text-[19px] leading-[23px] md:text-[21px] md:leading-[27px] text-[--dark-primary] mb-10">We delivered an interactive MVP that addressed the three key user journeys and presented the requested features. </p>
+            <p className="uppercase text-[19px] leading-[23px] md:text-[21px] md:leading-[27px] text-[--dark-primary] mb-10">Additionally, we began exploring advanced features (despite them being out of scope) that, based on our research findings, could significantly impact the product. These included dashboard customization and advanced search capabilities.</p>
+          </div>
+        </div>
+
+        {/* Next cases section */}
+        <div className="relative w-screen bg-[--light-primary] px-5 sm:px-10 mt-40 pt-40">
+          <span className="text-[120px] leading-[120px] md:text-[240px] md:leading-[240px] left-[-15px] md:left-[-30px] absolute z-[0] top-0 font-bold text-[--dark-secondary] opacity-20">Next Cases</span>
+          <div className="md:flex md:justify-between container max-w-screen-xl mx-auto mt-20 relative z-[50]">
+              <div className=" md:mr-5">
+                <CaseCard 
+                  url="/case-studies/unica"
+                  title="Unica"
+                  subtitle="Web platform"
+                  thumbSrc={unicaThumb}
+                />
+              </div>
+              <div className="mt-20 md:mt-32 md:ml-5">
+                <CaseCard 
+                  url="/case-studies/sky-home-move"
+                  title="Sky Home Move"
+                  subtitle="Mobile app digital service"
+                  thumbSrc={skyThumb}
+                />
+              </div>     
+          </div>
+            
+        </div>
+
+        
 
 
         <ReserveFreeCall />
