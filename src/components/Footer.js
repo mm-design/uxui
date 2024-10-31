@@ -4,7 +4,7 @@ import MauLogoFooter from '@/components/MauLogoFooter';
 
 function Footer() {
     return (
-        <footer className="mt-20 relative overflow-x-hidden">
+        <footer className="mt-20 relative overflow-hidden">
             <div className="px-5 sm:px-10">
                 <div className="text-center">
                     <p className="text-[13px] text-[--dark-secondary] mb-1">Mauro Micozzi</p>
