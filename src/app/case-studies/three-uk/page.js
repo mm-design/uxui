@@ -243,7 +243,7 @@ export default function CaseStudies() {
             <Image src={threeukWireframeV2} width={1680} height={1045} alt="Competitor B2B telco portals analysis" className="w-full block"/>
           </div>
 
-          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-10 md:pt-40 pb-10">
+          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-40 md:pt-40 pb-10">
             <div className="relative container max-w-screen-xl mx-auto">
               <div className="md:grid md:grid-cols-12 md:items-center">
                 <div className="md:col-start-1 md:col-span-6 lg:col-start-1 lg:col-span-4">
@@ -338,7 +338,7 @@ export default function CaseStudies() {
             <Image src={threeukWidgets} width={1681} height={1262} alt="Initial set of widgets for the dashboard" className="w-full block"/>
           </div>
 
-          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-10 md:pt-40 pb-10">
+          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-40 md:pt-40 pb-10">
             <div className="relative container max-w-screen-xl mx-auto">
               <div className="md:grid md:grid-cols-12">
                 <div className="md:col-start-1 md:col-span-6 lg:col-start-1 lg:col-span-4">
@@ -366,16 +366,16 @@ export default function CaseStudies() {
                 </div>
                 
                 <div className="md:col-start-1 md:col-span-12 lg:col-start-6 lg:col-span-7">
-                  <Image src={threeukAddLine} width={709} height={743} alt="Wireframe for the journey Add a line" className="w-full block md:mb-10 mt-20 md:mt-0"/>
+                  <Image src={threeukAddLine} width={709} height={743} alt="Wireframe for the journey Add a line" className="w-full block md:mb-10 mt-10 md:mt-0"/>
                 </div>
               </div>
 
-              <div className="md:grid md:grid-cols-12 md:items-center">
-                <div className="order-last md:order-first md:col-start-1 md:col-span-12 lg:col-start-1 lg:col-span-7">
-                  <Image src={threeukRaiseCase} width={712} height={633} alt="Wireframe for the journey Raise a case" className="w-full block md:mb-10 mt-20 md:mt-0"/>
+              <div className="grid md:grid md:grid-cols-12 md:items-center">
+                <div className="order-last lg:order-first md:col-start-1 md:col-span-12 lg:col-start-1 lg:col-span-7">
+                  <Image src={threeukRaiseCase} width={712} height={633} alt="Wireframe for the journey Raise a case" className="w-full block md:mb-10 mt-10 md:mt-0"/>
                 </div>
 
-                <div className="order-first md:order-last md:col-start-1 md:col-span-6 lg:col-start-9 lg:col-span-4">
+                <div className="order-first lg:order-last md:col-start-1 md:col-span-6 lg:col-start-9 lg:col-span-4 mt-20 md:mt-0">
                   <h3 className="text-[--light-primary] mt-10 md:mt-0 mb-3">Raise a case</h3>
                   <p className="text-[--dark-secondary] mb-5">The layout is a simple one column that clearly shows the form with all the required information to raise a case.</p>
                   <p className="text-[--dark-secondary] mb-5">If users have a dedicated Customer Success Manager, the related box with its name, surname and contact number is displayed before the form.</p>
