@@ -6,6 +6,9 @@ import Image from "next/image";
 import profilePic from '../public/placeholder.jpg';
 import ReserveFreeCall from "@/components/ReserveFreeCall";
 import ContactBanner from "@/components/ContactBanner";
+import CaseCard from "@/components/caseStudies/CaseCard";
+import unicaThumb from '../public/caseStudies/thumbnails/unica-thumbnail.jpg';
+import threeukThumb from '../public/caseStudies/thumbnails/threeuk-thumbnail.jpg';
 
 
 export default function Home() {
@@ -82,6 +85,25 @@ export default function Home() {
           <p className="text-[--dark-secondary] mx-auto mb-5 sm:max-w-sm">The best way to understand what I can achieve for your brand is to see real results for yourself.</p>
           <TextLink href="/case-studies" text="View all case studies" color="dark" />
         </div>
+          <div className="md:flex md:justify-between container max-w-screen-xl mx-auto mt-20 relative z-[50]">
+              <div className=" md:mr-5">
+                <CaseCard 
+                  url="/case-studies/unica"
+                  title="Unica"
+                  subtitle="Web platform"
+                  thumbSrc={unicaThumb}
+                />
+              </div>
+              <div className="mt-20 md:mt-32 md:ml-5">
+                <CaseCard 
+                  url="/case-studies/three-uk"
+                  title="Three UK"
+                  subtitle="MVP of digital corporate portal"
+                  thumbSrc={threeukThumb}
+                />
+              </div>     
+          </div>
+            
       </div>
 
       <div className="w-screen bg-[--dark-primary] px-5 py-20 sm:px-10 sm:py-40">
