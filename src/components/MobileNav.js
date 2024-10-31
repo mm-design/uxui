@@ -1,3 +1,4 @@
+import Link from "next/link";
 
 function MobileNav() {
     return (
@@ -11,26 +12,26 @@ function MobileNav() {
                 <nav className="list-none my-10">
                     <li>
                         <div className="animated-lines w-0 h-[2px] bg-[--dark-primary]"></div>
-                        <a href="" className="text-[35px] text-[--dark-primary] block py-2">Case Studies</a>
+                        <Link href="" className="font-medium text-[35px] text-[--dark-primary] block py-5">Case Studies</Link>
                     </li>
                     <li>
                         <div className="animated-lines w-0 h-[2px] bg-[--dark-primary]"></div>
-                        <a href="" className="text-[35px] text-[--dark-primary] block py-2">Services</a>
+                        <Link href="" className="font-medium text-[35px] text-[--dark-primary] block py-5">Services</Link>
                     </li>
                     <li>
                         <div className="animated-lines w-0 h-[2px] bg-[--dark-primary]"></div>
-                        <a href="" className="text-[35px] text-[--dark-primary] block py-2">About</a>
+                        <Link href="" className="font-medium text-[35px] text-[--dark-primary] block py-5">About</Link>
                     </li>
                     <li>
                         <div className="animated-lines w-0 h-[2px] bg-[--dark-primary]"></div>
-                        <a href="" className="text-[35px] text-[--dark-primary] block py-2">Contact</a>
+                        <Link href="" className="font-medium text-[35px] text-[--dark-primary] block py-5">Contact</Link>
                         <div className="animated-lines w-0 h-[2px] bg-[--dark-primary]"></div>
                     </li>
                 </nav>
                 <ul>
-                    <li><a href="" className="inline-block font-normal text-[15px] text-[--dark-secondary] underline my-1">Linkedin</a></li>
-                    <li><a href="" className="inline-block font-normal text-[15px] text-[--dark-secondary] underline my-1">Resume</a></li>
-                    <li><a href="" className="inline-block font-normal text-[15px] text-[--dark-secondary] underline my-1">mau.micozzi@gmail.com</a></li>
+                    <li><a href="https://it.linkedin.com/in/mauro-micozzi-ux-ui-designer" target="_blank" className="inline-block font-normal text-[15px] text-[--dark-secondary] underline my-1">Linkedin</a></li>
+                    <li><a href="" target="_blank" className="inline-block font-normal text-[15px] text-[--dark-secondary] underline my-1">Resume</a></li>
+                    <li><a href="mailto:mau.micozzi@gmail.com" className="inline-block font-normal text-[15px] text-[--dark-secondary] underline my-1">mau.micozzi@gmail.com</a></li>
                 </ul>
 
             </div>
