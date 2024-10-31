@@ -12,19 +12,19 @@ function MobileNav() {
                 <nav className="list-none my-10">
                     <li>
                         <div className="animated-lines w-0 h-[2px] bg-[--dark-primary]"></div>
-                        <Link href="" className="font-medium text-[35px] text-[--dark-primary] block py-5">Case Studies</Link>
+                        <Link href="case-study" className="font-medium text-[35px] text-[--dark-primary] block py-5">Case Studies</Link>
                     </li>
                     <li>
                         <div className="animated-lines w-0 h-[2px] bg-[--dark-primary]"></div>
-                        <Link href="" className="font-medium text-[35px] text-[--dark-primary] block py-5">Services</Link>
+                        <Link href="services" className="font-medium text-[35px] text-[--dark-primary] block py-5">Services</Link>
                     </li>
                     <li>
                         <div className="animated-lines w-0 h-[2px] bg-[--dark-primary]"></div>
-                        <Link href="" className="font-medium text-[35px] text-[--dark-primary] block py-5">About</Link>
+                        <Link href="about" className="font-medium text-[35px] text-[--dark-primary] block py-5">About</Link>
                     </li>
                     <li>
                         <div className="animated-lines w-0 h-[2px] bg-[--dark-primary]"></div>
-                        <Link href="" className="font-medium text-[35px] text-[--dark-primary] block py-5">Contact</Link>
+                        <Link href="contact" className="font-medium text-[35px] text-[--dark-primary] block py-5">Contact</Link>
                         <div className="animated-lines w-0 h-[2px] bg-[--dark-primary]"></div>
                     </li>
                 </nav>
