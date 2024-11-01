@@ -31,7 +31,7 @@ function MobileNav() {
                 </nav>
                 <ul>
                     <li><a href="https://it.linkedin.com/in/mauro-micozzi-ux-ui-designer" target="_blank" className="inline-block font-normal text-[15px] text-[--dark-secondary] underline my-1">Linkedin</a></li>
-                    <li><a href="" target="_blank" className="inline-block font-normal text-[15px] text-[--dark-secondary] underline my-1">Resume</a></li>
+                    <li><a href="https://www.dropbox.com/scl/fi/uijuoczyspep80gsprteq/resume-mauro-micozzi.pdf?rlkey=yzyn0rhakbnjre3n6rotmgrwo&e=1&st=l65wuz7o&dl=0" target="_blank" className="inline-block font-normal text-[15px] text-[--dark-secondary] underline my-1">Resume</a></li>
                     <li><a href="mailto:mau.micozzi@gmail.com" className="inline-block font-normal text-[15px] text-[--dark-secondary] underline my-1">mau.micozzi@gmail.com</a></li>
                 </ul>
 

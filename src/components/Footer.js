@@ -12,7 +12,7 @@ function Footer() {
                 </div>
                 <ul className="flex justify-center mt-4">
                     <li className="mx-2"><a target="_blank" href="https://www.linkedin.com/in/mauro-micozzi-ux-ui-designer/" className="inline-block font-normal text-[13px] md:text-[15px] text-[--dark-primary] underline">Linkedin</a></li>
-                    <li className="mx-2"><a target="blank" href="/files/resume-mauro-micozzi.pdf" className="inline-block font-normal text-[13px] md:text-[15px] text-[--dark-primary] underline">Resume</a></li>
+                    <li className="mx-2"><a target="blank" href="https://www.dropbox.com/scl/fi/uijuoczyspep80gsprteq/resume-mauro-micozzi.pdf?rlkey=yzyn0rhakbnjre3n6rotmgrwo&e=1&st=l65wuz7o&dl=0" className="inline-block font-normal text-[13px] md:text-[15px] text-[--dark-primary] underline">Resume</a></li>
                     <li className="mx-2"><a href="mailto:mau.micozzi@gmail.com" className="inline-block font-normal text-[13px] md:text-[15px] text-[--dark-primary] underline">mau.micozzi@gmail.com</a></li>
                 </ul>
                 <div className="block text-center sm:flex justify-between items-center pt-28 pb-10">
