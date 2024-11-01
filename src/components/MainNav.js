@@ -15,7 +15,7 @@ function MainNav() {
             <header>
                 <div className="w-full h-[67px] fixed top-0 z-[100] py-4 mix-blend-difference">
                     <div className="flex justify-between items-center px-5 sm:px-10">
-                        <Link href='/'><MauLogo /></Link>                        
+                        <a href='/'><MauLogo /></a>                        
                         <nav className="hidden sm:flex list-none ">
                             <li className="mr-4"><Link href="/case-studies"  className={currentPath === "/case-studies" ? "text-[15px] text-[--dark-primary] bg-[--light-primary] px-2 py-1 rounded-md" : "text-[15px] text-[--light-primary] px-2 py-1"}>Case Studies</Link></li>
                             <li className="mr-4"><Link href="/services" className={currentPath === "/services" ? "text-[15px] text-[--dark-primary] bg-[--light-primary] px-2 py-1 rounded-md" : "text-[15px] text-[--light-primary] px-2 py-1"}>Services</Link></li>

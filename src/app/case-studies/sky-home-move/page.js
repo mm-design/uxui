@@ -52,17 +52,16 @@ export default function CaseStudies() {
                     <p className="">Telco and media</p>
                   </div>
               
-                
                   <div className="mb-5">
                     <p className="text-[--dark-secondary]">Agency</p>
                     <p className="">Tangity UK</p>
                   </div>
+
                   <div className="mb-5">
                     <p className="text-[--dark-secondary]">Period</p>
                     <p className="">Dic 2022 (2 weeks)</p>
                   </div>
               
-                
                   <div className="mb-5">
                     <p className="text-[--dark-secondary]">Role</p>
                     <p className="">UX UI</p>

@@ -55,22 +55,22 @@ export default function CaseStudies() {
                     <p className="text-[--dark-secondary]">Field</p>
                     <p className="">Education technology</p>
                   </div>
-              
                 
                   <div className="mb-5">
                     <p className="text-[--dark-secondary]">Agency</p>
                     <p className="">Tangity</p>
                   </div>
+
                   <div className="mb-5">
                     <p className="text-[--dark-secondary]">Period</p>
                     <p className="">Mar - Oct 2023</p>
                   </div>
-              
-                
+                              
                   <div className="mb-5">
                     <p className="text-[--dark-secondary]">Role</p>
                     <p className="">UX</p>
                   </div>
+                  
                   <div className="mb-5">
                     <ExternalTextLink color="dark" href="https://unica.istruzione.gov.it/it" target="_blank" text="View live website" />
                   </div>
