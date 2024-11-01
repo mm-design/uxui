@@ -17,6 +17,20 @@ import unicaHomeUI1 from '../../../public/caseStudies/unica/unica-ui-home-1.png'
 import unicaHomeUI2 from '../../../public/caseStudies/unica/unica-ui-home-2.png';
 import unicaHomeUI3 from '../../../public/caseStudies/unica/unica-ui-home-3.png';
 import unicaEportfolioJourneys from '../../../public/caseStudies/unica/unica-eportfolio-journeys.png';
+import unicaMasterpieceStart from '../../../public/caseStudies/unica/unica-masterpiece-start.png';
+import unicaMasterpieceUpload from '../../../public/caseStudies/unica/unica-masterpiece-upload.png';
+import unicaMasterpieceSaveDraft from '../../../public/caseStudies/unica/unica-masterpiece-save-draft.png';
+import unicaMasterpieceMobile from '../../../public/caseStudies/unica/unica-masterpiece-mobile.png';
+import unicaMasterpieceUI from '../../../public/caseStudies/unica/unica-masterpiece-ui.png';
+import unicaEportfolioMix from '../../../public/caseStudies/unica/unica-eportfolio-wireframe-mix.png';
+import unicaEportfolioUIMix from '../../../public/caseStudies/unica/unica-eportfolio-ui-mix.png';
+import unicaEportfolioAllUsers from '../../../public/caseStudies/unica/unica-eportfolio-all-users.png';
+import unicaStatsReq from '../../../public/caseStudies/unica/unica-statistics-requirements.png';
+import unicaStatsViews from '../../../public/caseStudies/unica/unica-statistics-views.png';
+import unicaStatsGuide from '../../../public/caseStudies/unica/unica-statistics-guide.png';
+import unicaStatsUIMix from '../../../public/caseStudies/unica/unica-statistics-ui-mix.png';
+import unicaPresenttionScreen from '../../../public/caseStudies/unica/unica-presentation-screen.png';
+import unicaMiroUILibrary from '../../../public/caseStudies/unica/unica-miro-ui-library.png';
 
 
 
@@ -209,7 +223,7 @@ export default function CaseStudies() {
             </div>
           </div>
 
-          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-2 0 pb-10">
+          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-20 pb-10">
             <div className="relative container max-w-screen-xl mx-auto">
               <div className="md:grid md:grid-cols-12">
                 <div className="md:col-start-1 md:col-span-6 lg:col-start-1 lg:col-span-4">
@@ -270,6 +284,253 @@ export default function CaseStudies() {
               </div>
             </div>
           </div>
+
+          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pb-10">
+            <div className="relative container max-w-screen-xl mx-auto">
+              <div className="md:grid md:grid-cols-12 md:items-center">
+                <div className="md:col-start-1 md:col-span-6 lg:col-start-1 lg:col-span-4">
+                  <h3 className="text-[--light-primary] mb-5">How the journey begins</h3>
+                  <p className="text-[--dark-secondary] mb-5">Students can access the masterpiece page from the e-Portfolio home by clicking the arrow icon button in the top right corner of the masterpiece box.</p>
+                  <p className="text-[--dark-secondary] mb-5">Alternatively, they can immediately begin their journey to add a new masterpiece by clicking the "Add masterpiece" CTA button.</p>
+               </div>
+                
+                <div className="md:col-start-1 md:col-span-12 lg:col-start-6 lg:col-span-7">
+                  <Image src={unicaMasterpieceStart} width={708} height={719} alt="Masterpiece section how the user journey begins" className="w-full block md:mb-10 mt-10 md:mt-0"/>
+                </div>
+              </div>
+
+              <div className="grid md:grid md:grid-cols-12 md:items-center pt-0 md:pt-20">
+                <div className="order-last lg:order-first md:col-start-1 md:col-span-12 lg:col-start-1 lg:col-span-7">
+                  <Image src={unicaMasterpieceUpload} width={705} height={664} alt="How to upload the masterpiece" className="w-full block md:mb-10 mt-10 md:mt-0"/>
+                </div>
+
+                <div className="order-first lg:order-last md:col-start-1 md:col-span-6 lg:col-start-9 lg:col-span-4 mt-28 md:mt-0">
+                  <h3 className="text-[--light-primary] md:mt-0 mb-5">Main steps to upload the Masterpiece</h3>
+                  <p className="text-[--dark-secondary] mb-5">The journey is divided into three steps, where students must input all the required information to complete the process.</p>
+                  <p className="text-[--dark-secondary] mb-5">The main layout consists of two columns: </p>
+                  <ul className="list-disc pl-8 mb-6">
+                    <li className="text-[--dark-secondary] mb-2">Left column displays the progress through the steps with different states (in progress, done, to be done)</li>
+                    <li className="text-[--dark-secondary] mb-2">Right column contains the required information input fields, a CTA text link at the bottom to save the masterpiece as a draft, along with navigation buttons for the steps</li>
+                  </ul>  
+                </div>              
+        
+              </div>
+
+              <div className="md:grid md:grid-cols-12 md:items-center pt-0 md:pt-20">
+                <div className="md:col-start-1 md:col-span-6 lg:col-start-1 lg:col-span-4 mt-28 md:mt-0">
+                  <h3 className="text-[--light-primary] md:mt-0 mb-5">Save the Masterpiece as a draft and complete the process later</h3>
+                  <p className="text-[--dark-secondary] mb-5">A fullscreen modal is displayed when students click the CTA to save the masterpiece as a draft or attempt to exit the journey using the X icon in the top right corner.</p>
+                  <p className="text-[--dark-secondary] mb-5">They can choose to save and exit (main CTA) or leave without saving (secondary CTA).</p>
+                  <p className="text-[--dark-secondary] mb-5">After saving, students are redirected to the masterpiece page, which has now updated its layout:</p>
+                  <ul className="list-disc pl-8 mb-6">
+                    <li className="text-[--dark-secondary] mb-2">the masterpiece preview is presented as a card element in tis draft state, summarizing relevant information and including a CTA to finalize the process</li>
+                    <li className="text-[--dark-secondary] mb-2">to add a new masterpiece, I designed a separate card with a different treatment and a CTA to initiate a new process</li>
+                  </ul>  
+               </div>
+                
+                <div className="md:col-start-1 md:col-span-12 lg:col-start-6 lg:col-span-7">
+                  <Image src={unicaMasterpieceSaveDraft} width={720} height={669} alt="How to save the masterpiece as a draft" className="w-full block md:mb-10 mt-10 md:mt-0"/>
+                </div>
+              </div>
+
+              <div className="grid md:grid md:grid-cols-12 md:items-center pt-0 md:pt-20">
+                <div className="order-last lg:order-first md:col-start-1 md:col-span-12 lg:col-start-1 lg:col-span-7">
+                  <Image src={unicaMasterpieceUpload} width={705} height={664} alt="How to upload the masterpiece" className="w-full block md:mb-10 mt-10 md:mt-0"/>
+                </div>
+
+                <div className="order-first lg:order-last md:col-start-1 md:col-span-6 lg:col-start-9 lg:col-span-4 mt-28 md:mt-0">
+                  <h3 className="text-[--light-primary] md:mt-0 mb-5">Complete the process and return to the Masterpiece section</h3>
+                  <p className="text-[--dark-secondary] mb-5">After completing the process, students are directed to a success page that displays the skill badges earned for their work on the masterpiece.</p>
+                  <p className="text-[--dark-secondary] mb-5">Students can then return to the Masterpiece page, where the updated layout now shows the masterpiece card element in its completed state.</p>
+                  <p className="text-[--dark-secondary] mb-5">Below the cards, an additional section has been added for students to post a reflection on the masterpiece, along with a CTA that initiates the related journey.</p>
+                </div>              
+        
+              </div>
+
+              <div className="md:grid md:grid-cols-12 md:items-center pt-0 md:pt-20">
+                <div className="md:col-start-1 md:col-span-6 lg:col-start-1 lg:col-span-4 mt-28 md:mt-0">
+                  <h3 className="text-[--light-primary] mb-5">Designing the user journey for the mobile app version</h3>
+                  <p className="text-[--dark-secondary] mb-5">As mentioned in the case study overview, in addition to the desktop touchpoint, student users also have access to a mobile app for managing all E-Portfolio sections.</p>
+                  <p className="text-[--dark-secondary] mb-5">I designed the mobile version of the journey presented earlier, adapting layout elements such as the step progress to improve the user experience on mobile devices.</p>                
+               </div>
+                
+                <div className="md:col-start-1 md:col-span-12 lg:col-start-6 lg:col-span-7">
+                  <Image src={unicaMasterpieceMobile} width={710} height={665} alt="Masterpiece journey mobile version" className="w-full block md:mb-10 mt-10 md:mt-0"/>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-20 pb-10">
+            <div className="relative container max-w-screen-xl mx-auto">
+              <div className="md:grid md:grid-cols-12">
+                <div className="md:col-start-1 md:col-span-6 lg:col-start-1 lg:col-span-4">
+                  <h3 className="text-[--light-primary] mt-10 mb-5">Visuals of the Masterpiece section for students, designed by the UI team</h3>
+                  <p className="text-[--dark-secondary] mb-5">A selection of the final visuals created based on the wireframes I designed.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="w-screen bg-gradient-to-br from-[#D5E4F0] to-[#48A8F0]">
+            <Image src={unicaMasterpieceUI} width={1680} height={1064} alt="Selection of UI pages of the Materpiece section" className="w-full block"/>
+          </div>
+
+          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-10 md:pt-40 pb-10">
+            <div className="relative container max-w-screen-xl mx-auto">
+              <div className="md:grid md:grid-cols-12">
+                <div className="md:col-start-1 md:col-span-6 lg:col-start-1 lg:col-span-4">
+                  <span className="block text-[15px] text-[--dark-secondary]">5 / 8</span>
+                  <h2 className="text-[--light-primary] mt-3 mb-8">Wireframing the other E-Portfolio sections for student users, including all associated journeys</h2>
+                  <p className="text-[--dark-secondary] mb-5">I have been working on the entire E-Portfolio, designing all user journeys for students.</p>
+                  <p className="text-[--dark-secondary] mb-5">Each section had specific requirements and features that needed to be considered in the design decisions.</p>             
+                  <p className="text-[--dark-secondary] mb-5">Below is a quick overview of the mobile app and desktop versions of the other E-Portfolio sections.</p>             
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="w-screen bg-[--dark-primary]">
+            <Image src={unicaEportfolioMix} width={1680} height={947} alt="Mix of E-Portfolio wireframes for desktop and mobile devices" className="w-full block"/>
+          </div>
+
+          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-20 pb-10">
+            <div className="relative container max-w-screen-xl mx-auto">
+              <div className="md:grid md:grid-cols-12">
+                <div className="md:col-start-1 md:col-span-6 lg:col-start-1 lg:col-span-4">
+                  <h3 className="text-[--light-primary] mt-10 mb-5">Visuals of E-Portfolio sections for students  designed by the UI team</h3>
+                  <p className="text-[--dark-secondary] mb-5">A selection of the final visuals created based on the wireframes I designed.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="w-screen bg-gradient-to-br from-[#D5E4F0] to-[#48A8F0]">
+            <Image src={unicaEportfolioUIMix} width={1680} height={1064} alt="Selection of UI pages of the E-Portfolio section" className="w-full block"/>
+          </div>
+
+          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-10 md:pt-40 pb-10">
+            <div className="relative container max-w-screen-xl mx-auto">
+              <div className="md:grid md:grid-cols-12">
+                <div className="md:col-start-1 md:col-span-6 lg:col-start-1 lg:col-span-4">
+                  <span className="block text-[15px] text-[--dark-secondary]">6 / 8</span>
+                  <h2 className="text-[--light-primary] mt-3 mb-8">Defining E-Portfolio sections and journeys for other user types</h2>
+                  <p className="text-[--dark-secondary] mb-5">The E-Portfolio serves as the core area for student users, but other user types can also access the information contained within this section.</p>
+                  <p className="text-[--dark-secondary] mb-5">I designed the wireframes for every section and journey related to the E-Portfolio for the adult users, resulting in over 100 designed pages.</p>
+                  <p className="text-[--dark-secondary] mb-5">To give you an idea, below are a couple of screenshots showing all the pages I created for just two sections: Student Self-Assessment and Masterpiece.</p>
+                </div>
+              </div>
+              <Image src={unicaEportfolioAllUsers} width={1234} height={775} alt="E-Portfolio wireframes for all user types" className="w-full block mt-10 mb-10"/>
+            </div>
+          </div>
+
+          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-10 md:pt-40 pb-10">
+            <div className="relative container max-w-screen-xl mx-auto">
+              <div className="md:grid md:grid-cols-12">
+                <div className="md:col-start-1 md:col-span-6 lg:col-start-1 lg:col-span-4">
+                  <span className="block text-[15px] text-[--dark-secondary]">7 / 8</span>
+                  <h2 className="text-[--light-primary] mt-3 mb-8">Designing public pages with extensive data such as education and work statistics</h2>
+                  <p className="text-[--dark-secondary] mb-5">A part from the E-Portfolio, I was involved even on the creation of pages for the public website with a huge amount of data to cominuticate like the <a href="https://unica.istruzione.gov.it/it/orientamento/guida-alla-scelta/statistiche" target="_blank" className="underline text-[--light-primary]">Statistics on education and work</a> page.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pb-10">
+            <div className="relative container max-w-screen-xl mx-auto">
+              <div className="md:grid md:grid-cols-12 md:items-center">
+                <div className="md:col-start-1 md:col-span-6 lg:col-start-1 lg:col-span-4">
+                  <h3 className="text-[--light-primary] mb-5">Analyzing requirements and optimizing content organization</h3>
+                  <p className="text-[--dark-secondary] mb-5">After delving into the specific requirements for this section, I proposed a more effective content organization that reflects the progressive growth of students from school to work. The structure is composed of 3 main areas:</p>
+                  <ul className="list-disc pl-8 mb-6">
+                    <li className="text-[--dark-secondary] mb-2">Education and training</li>
+                    <li className="text-[--dark-secondary] mb-2">From studying to working</li>
+                    <li className="text-[--dark-secondary] mb-2">The world of work</li>
+                  </ul>  
+               </div>
+                
+                <div className="md:col-start-1 md:col-span-12 lg:col-start-6 lg:col-span-7">
+                  <Image src={unicaStatsReq} width={711} height={494} alt="Statistics section requirements" className="w-full block md:mb-10 mt-10 md:mt-0"/>
+                </div>
+              </div>
+
+              <div className="grid md:grid md:grid-cols-12 md:items-center pt-0 md:pt-20">
+                <div className="order-last lg:order-first md:col-start-1 md:col-span-12 lg:col-start-1 lg:col-span-7">
+                  <Image src={unicaStatsViews} width={767} height={594} alt="Statistics data visualization" className="w-full block md:mb-10 mt-10 md:mt-0"/>
+                </div>
+
+                <div className="order-first lg:order-last md:col-start-1 md:col-span-6 lg:col-start-9 lg:col-span-4 mt-28 md:mt-0">
+                  <h3 className="text-[--light-primary] md:mt-0 mb-5">Structure of data visualizations in the main areas of Statistics</h3>
+                  <p className="text-[--dark-secondary] mb-5">Users can access the Statistics page through the main menu. After landing, a summary of each main area is displayed, along with CTAs to explore them further.</p>
+                  <p className="text-[--dark-secondary] mb-5">Each area contains multiple data visualizations, which are structured as follows:</p>
+                  <ul className="list-disc pl-8 mb-6">
+                    <li className="text-[--dark-secondary] mb-2">Title and short description of the view</li>
+                    <li className="text-[--dark-secondary] mb-2">Filters</li>
+                    <li className="text-[--dark-secondary] mb-2">Main data visualization (donut chart, tables, progress bars)</li>
+                    <li className="text-[--dark-secondary] mb-2">Useful links (if applicable)</li>
+                  </ul>  
+                </div>              
+        
+              </div>
+
+              <div className="md:grid md:grid-cols-12 md:items-center pt-0 md:pt-20">
+                <div className="md:col-start-1 md:col-span-6 lg:col-start-1 lg:col-span-4 mt-28 md:mt-0">
+                  <h3 className="text-[--light-primary] md:mt-0 mb-5">Helping users in understanding how to read and navigate the data</h3>
+                  <p className="text-[--dark-secondary] mb-5">Considering the complexity of these pages, which contain vast amounts of information and multiple filters, I created a simple visual guide to assist users in interpreting the data.</p>
+                  <p className="text-[--dark-secondary] mb-5">Users can access the guide through the fixed CTA “Guide to Statistics” located in the bottom right corner of each main area page.</p>
+                  <p className="text-[--dark-secondary] mb-5">The guide is presented as a fullscreen slideshow that shows, based on the area the user is navigating, how to read the data. It explains the location of filters, key data points, and additional details.</p>                  
+               </div>
+                
+                <div className="md:col-start-1 md:col-span-12 lg:col-start-6 lg:col-span-7">
+                  <Image src={unicaStatsGuide} width={710} height={723} alt="Statistics: how to read data" className="w-full block md:mb-10 mt-10 md:mt-0"/>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-20 pb-10">
+            <div className="relative container max-w-screen-xl mx-auto">
+              <div className="md:grid md:grid-cols-12">
+                <div className="md:col-start-1 md:col-span-6 lg:col-start-1 lg:col-span-4">
+                  <h3 className="text-[--light-primary] mt-10 mb-5">Visuals of Statistics on education and work designed by the UI team</h3>
+                  <p className="text-[--dark-secondary] mb-5">A selection of the final visuals created based on the wireframes I designed.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="w-screen bg-gradient-to-br from-[#D5E4F0] to-[#48A8F0]">
+            <Image src={unicaStatsUIMix} width={1680} height={1064} alt="Selection of UI pages of the Statistics section" className="w-full block"/>
+          </div>
+
+          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-10 md:pt-40 pb-40">
+            <div className="relative container max-w-screen-xl mx-auto">
+              <div className="md:grid md:grid-cols-12">
+                <div className="md:col-start-1 md:col-span-6 lg:col-start-1 lg:col-span-4">
+                  <span className="block text-[15px] text-[--dark-secondary]">8 / 8</span>
+                  <h2 className="text-[--light-primary] mt-3 mb-8">Managing stakeholder presentations and updating the visual library for further review</h2>
+                  <p className="text-[--dark-secondary] mb-5">I was responsible for presenting the user journeys I had developed, as well as the final interfaces created by the UI team for those journeys.</p>
+                  <p className="text-[--dark-secondary] mb-5">The presentation assets consist of:</p>
+                  <ul className="list-disc pl-8 mb-6">
+                    <li className="text-[--dark-secondary] mb-2"><span className="font-bold text-[--light-primary]">Cover</span> with main objective of the journey </li>
+                    <li className="text-[--dark-secondary] mb-2"><span className="font-bold text-[--light-primary]">Storytelling frame</span> with explanation of the related user action for each step</li>
+                    <li className="text-[--dark-secondary] mb-2"><span className="font-bold text-[--light-primary]">Wireframe or UI</span> of the page</li>
+                  </ul>  
+                </div>
+              </div>
+              <Image src={unicaPresenttionScreen} width={1232} height={557} alt="Screenshots of the file for the design presentation with stakeholders" className="w-full block mt-10 mb-10"/>
+              <div className="md:grid md:grid-cols-12">
+                <div className="md:col-start-1 md:col-span-6 lg:col-start-1 lg:col-span-4">
+                  <p className="text-[--dark-secondary] mb-5">To further assist stakeholders in keeping track of all the designed pages and facilitate their reviews, we created a visual library on Miro.</p>
+                  <p className="text-[--dark-secondary] mb-5">The library hosts all the approved visuals, organized by sprints. This greatly helps everyone involved in the project maintain a clear overview.</p>
+                </div>
+              </div>
+              <Image src={unicaMiroUILibrary} width={1235} height={726} alt="UI library of all Unica pages on Miro board" className="w-full block mt-10 mb-10"/>
+            
+            </div>
+          </div>
+
+         
         
         </div>
         
