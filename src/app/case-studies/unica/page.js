@@ -41,7 +41,7 @@ export default function CaseStudies() {
           <div className="relative container max-w-screen-xl mx-auto">
             <div className="block">
               <h1 className="mb-5">Unica</h1>
-              <p className="text-[--dark-secondary] text-[17px] leading-[23px] sm:text-[21px] sm:leading-[27px] uppercase mb-10 sm:max-w-screen-sm">designing the web platform launched by the Italian Ministry of Education and Merit that centralizes all tools and resources for students and families</p>
+              <p className="text-[--dark-secondary] text-[17px] leading-[23px] sm:text-[21px] sm:leading-[27px] uppercase mb-10 sm:max-w-screen-sm">Designing the web platform launched by the Italian Ministry of Education and Merit that centralizes all tools and resources for students and families</p>
               <Image src={unicaCover} width={1235} height={785} alt="Unica web portal mockup" className="rounded-[40px] w-full block mb-10"/>
             </div>
             <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-5">
