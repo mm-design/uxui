@@ -1,6 +1,6 @@
 import TextLink from "./TextLink";
 
-function ContactBanner(props) {
+function ContactBanner() {
     return (
         <div className="w-full px-5 sm:px-10 text-center">
             <div className="bg-[--dark-primary] py-16 px-5 sm:px-10 rounded-[40px] text-center">
