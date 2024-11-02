@@ -23,12 +23,12 @@ export default function Home() {
         <div className="relatvie z-[50] max-w-screen-md mx-auto">
           <h1 className="block mt-[60px]">Shaping <br/> digital products <span className="block text-[15px] font-normal text-[--dark-secondary] my-2">for</span>startups, agencies<br/>and corporates</h1>
           <p className="block mt-10 text-[--dark-secondary]">Scroll down to uncover <br/>what I can do for your brand</p>
-          <p className="text-[13px] text-[--dark-secondary] mt-28">Mauro Micozzi<br/>UX UI Designer & Front-End Developer</p>
+          <p className="text-[12px] text-[--dark-secondary] mt-28">Mauro Micozzi<br/><span className="uppercase">UX UI Designer & Front-End Developer</span></p>
         </div>
-        <div className="absolute z-[0] top-[50%] left-[50%] mt-[-500px] ml-[-800px]"><VectorShapes /></div>
+        {/* <div className="absolute z-[0] top-[50%] left-[50%] mt-[-500px] ml-[-800px]"><VectorShapes /></div> */}
       </div>
 
-      <div className="w-screen bg-[--dark-primary] px-5 py-20 sm:px-10 sm:py-40">
+      <div className="w-screen bg-[--dark-primary] px-5 0 sm:px-10 pt-28 md:pt-40 pb-28 md:pb-40">
           <div className="container max-w-screen-xl mx-auto">
             <h2 className="text-[--light-primary] sm:max-w-[300px]">I can help you forget common problems of web projects</h2>
             <div className="grid grid-cols-1 gap-0 lg:grid-cols-3 lg:gap-3 mt-16">
@@ -55,7 +55,7 @@ export default function Home() {
                 </div>            
             </div>
 
-            <h2 className="block text-[--light-primary] sm:max-w-[320px] mt-40 mb-4">With bespoke design services to build an effective digital product</h2>
+            <h2 className="block text-[--light-primary] sm:max-w-[320px] mt-28 md:mt-40 mb-4">With bespoke design services to build an effective digital product</h2>
             <TextLink href="/services" text="View all services" color="light" />
             <div className="grid gridcols-1 gap-0 lg:grid-cols-3 lg:gap-3 mt-16">
                 <div className="">
@@ -83,7 +83,7 @@ export default function Home() {
           </div>
       </div>
 
-      <div className="w-screen bg-[--light-primary] px-5 py-20 sm:px-10 sm:py-40">
+      <div className="w-screen bg-[--light-primary] px-5 sm:px-10 pt-28 md:pt-40 pb-28 md:pb-40">
         <div className="container max-w-screen-xl mx-auto text-center">
           <h2 className="text-[--dark-primary] mx-auto mb-5">Check out what I’ve<br/> accomplished for other clients</h2>
           <p className="text-[--dark-secondary] mx-auto mb-5 sm:max-w-sm">The best way to understand what I can achieve for your brand is to see real results for yourself.</p>
@@ -110,7 +110,7 @@ export default function Home() {
             
       </div>
 
-      <div className="w-screen bg-[--dark-primary] px-5 py-20 sm:px-10 sm:py-40">
+      <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-28 md:pt-40 pb-28 md:pb-40">
         <div className="container max-w-screen-xl mx-auto">
           <h2 className="text-[--light-primary] sm:max-w-sm mb-5">A single expert to drive all your design goals</h2>
           <p className="text-[--dark-secondary] mb-3 sm:max-w-sm">With over 10 years of experience in international digital agencies and corporates, I bring the expertise needed to elevate your digital product.</p>

@@ -7,9 +7,11 @@ export const metadata = {
 
 export default function Contact() {
   return (
-        <div className="w-screen lg:h-screen lg:flex lg:flex-col lg:justify-center bg-[--light-primary] px-5 sm:px-10 py-[40vh] lg:py-0">
+        <div className="w-screen lg:h-screen lg:flex lg:flex-col lg:justify-center bg-[--light-primary] px-5 sm:px-10 pt-[20vh] pb-20 sm:pt-[30vh] lg:pb-0 lg:pt-0">
           <div className="container max-w-screen-xl mx-auto">
             <h1 className="block">Prepared to help <br/>with any inquiry</h1>
+            <a href="mailto:mau.micozzi@gmail.com" className="inline-block underline text-[--dark-primary] text-[19px] sm:text-[21px] mt-6">mau.micozzi@gmail.com</a>
+            
 
             <div className="grid grid-cols-1 gap-0 lg:grid-cols-3 lg:gap-20 mt-16">
                 <div className="">

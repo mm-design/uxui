@@ -18,15 +18,14 @@ export default function Services() {
             <div className="block sm:max-w-screen-sm">
               <h1 className="mb-10">Design solutions to expand your digital vision</h1>
               <p className="text-[--dark-secondary] mb-5 sm:max-w-[450px]">Working across various design disciplines ensures the creation of a digital product that performs effectively.</p>
-              <p className="text-[--dark-secondary] mb-5 sm:max-w-[450px]">From understanding every aspect of your target audience and competitors to designing a tailored user experience and a functional user interface, and web developing with cutting-edge technologies to guarantee high performance.</p>
               <p className="text-[--dark-secondary] mb-5 sm:max-w-[450px]">Explore in detail how I can assist in each design area with clear objectives and deliverables.</p>
             </div>
           </div>
           {/* <div className="absolute z-[0] top-[50%] right-[-50%] mt-[-500px] ml-[-750px]"><VectorShapes /></div> */}
         </div>
 
-        <div className="relative z-[10] container max-w-screen-xl mx-auto mt-40">
-          <h2 className="mb-8">User Experience</h2>
+        <div className="relative z-[10] container max-w-screen-xl mx-auto mt-20">
+          <h2 className="mb-5 md:mb-8">User Experience</h2>
 
           <div className="animated-lines w-full h-[2px] bg-[--dark-primary] opacity-100"></div>
           <Accordion 
@@ -66,8 +65,8 @@ export default function Services() {
           <div className="animated-lines w-full h-[1px] bg-[--dark-secondary] opacity-20"></div>
         </div>
 
-        <div className="container max-w-screen-xl mx-auto mt-40">
-          <h2 className="mb-8">User Interface</h2>
+        <div className="container max-w-screen-xl mx-auto mt-20">
+          <h2 className="mb-5 md:mb-8">User Interface</h2>
 
           <div className="animated-lines w-full h-[2px] bg-[--dark-primary] opacity-100"></div>
           <Accordion 
@@ -87,8 +86,8 @@ export default function Services() {
           <div className="animated-lines w-full h-[1px] bg-[--dark-secondary] opacity-20"></div>        
         </div>
 
-        <div className="container max-w-screen-xl mx-auto mt-40">
-          <h2 className="mb-8">Web development</h2>
+        <div className="container max-w-screen-xl mx-auto mt-20">
+          <h2 className="mb-5 md:mb-8">Web development</h2>
 
           <div className="animated-lines w-full h-[2px] bg-[--dark-primary] opacity-100"></div>
           <Accordion 

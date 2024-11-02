@@ -49,7 +49,7 @@ export default function About() {
         </div>
       </div>
 
-      <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-10 md:pt-40 pb-20 mt-40">
+      <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-28 md:pt-40 mt-20">
         <div className="relative container max-w-screen-md mx-auto text-center">
             <p className="text-[--dark-secondary] mb-3">Hi there! I’m Mauro Micozzi</p>
             <h1 className="text-[--light-primary] mb-2">Freelance UX/UI designer and front-end developer</h1>
@@ -59,7 +59,7 @@ export default function About() {
             <Image src={profilePic} width={604} height={783} alt="Mauro Micozzi UX UI Designer" className="rounded-[40px] mt-10 mx-auto"/>
         </div>
 
-        <div className="relative container max-w-screen-xl mx-auto mt-40">
+        <div className="relative container max-w-screen-xl mx-auto pt-28 pb-10">
           <div className="md:grid md:grid-cols-12">
             <div className="md:col-start-1 md:col-span-6 lg:col-start-1 lg:col-span-4">
               <h2 className="text-[--light-primary] mt-3 mb-2">I’ve had the chance to collaborate with some of the leading digital agencies and corporations worldwide</h2>
@@ -69,30 +69,30 @@ export default function About() {
             </div>
           </div>
 
-          <div className="grid grid-cols-12 mt-10 gap-8">
-            <div className="col-start-1 col-span-12 md:col-span-6 lg:col-span-3 mb-5">
+          <div className="md:grid md:grid-cols-12 mt-10 gap-8">
+            <div className="col-start-1 col-span-12 md:col-span-6 lg:col-span-3 mb-14 md:mb-4">
                 <div className="bg-[--dark-secondary] rounded-[10px] flex justify-center items-center h-[140px]"> <NTTLogo /></div>
-                <h3 className="text-[--light-primary] mt-8 mb-2">NTT Data</h3>
+                <h3 className="text-[--light-primary] mt-5 mb-2">NTT Data</h3>
                 <p className="text-[--dark-secondary] mb-5">Global IT services provider offering consulting, system integration and digital solutions.</p>   
             </div>
-            <div className="col-start-1 col-span-12 md:col-start-7 md:col-span-6 lg:col-span-3 mb-5">
+            <div className="col-start-1 col-span-12 md:col-start-7 md:col-span-6 lg:col-span-3 mb-14 md:mb-4">
                 <div className="bg-[--dark-secondary] rounded-[10px] flex justify-center items-center h-[140px]"> <TangityLogo /></div>
-                <h3 className="text-[--light-primary] mt-8 mb-2">Tangity</h3>
+                <h3 className="text-[--light-primary] mt-5 mb-2">Tangity</h3>
                 <p className="text-[--dark-secondary] mb-5">Design consultancy agency specialized in user-centered digital experiences and innovation.</p>   
             </div>
-            <div className="col-start-1 col-span-12 md:col-span-6 lg:col-span-3 mb-5">
+            <div className="col-start-1 col-span-12 md:col-span-6 lg:col-span-3 mb-14 md:mb-4">
                 <div className="bg-[--dark-secondary] rounded-[10px] flex justify-center items-center h-[140px]"> <PokerStarsLogo /></div>
-                <h3 className="text-[--light-primary] mt-8 mb-2">PokerStars</h3>
+                <h3 className="text-[--light-primary] mt-5 mb-2">PokerStars</h3>
                 <p className="text-[--dark-secondary] mb-5">Leading online poker platform, offering a wide range of games and global tournaments.</p>   
             </div>
-            <div className="col-start-1 col-span-12 md:col-start-7 md:col-span-6 lg:col-span-3 mb-5">
+            <div className="col-start-1 col-span-12 md:col-start-7 md:col-span-6 lg:col-span-3 mb-14 md:mb-4">
                 <div className="bg-[--dark-secondary] rounded-[10px] flex justify-center items-center h-[140px]"> <TangentLogo /></div>
-                <h3 className="text-[--light-primary] mt-8 mb-2">Tangent</h3>
+                <h3 className="text-[--light-primary] mt-5 mb-2">Tangent</h3>
                 <p className="text-[--dark-secondary] mb-5">UK-based creative agency specializing in digital marketing, design and brand development.</p>   
             </div>
           </div>
 
-          <div className="md:grid md:grid-cols-12 mt-28 mb-20">
+          <div className="md:grid md:grid-cols-12 pt-28 pb-10">
             <div className="md:col-start-1 md:col-span-6 lg:col-start-1 lg:col-span-4">
               <h2 className="text-[--light-primary]">I learned in the field how to manage a project using a structured process to deliver effective digital products</h2>
             </div>

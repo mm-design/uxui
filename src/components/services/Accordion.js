@@ -15,7 +15,7 @@ function Accordion(props){
 
     return (
         <div className="relative md:flex md:flex-row py-5 md:py-10">
-            <button onClick={toggle} className="absolute top-[22px] right-0 text-[13px] uppercase underline md:hidden">{!isShowing ? buttonLabel = "Expand" : buttonLabel = "Collapse" }</button>
+            <button onClick={toggle} className="absolute top-[24px] right-0 text-[13px] uppercase underline md:hidden">{!isShowing ? buttonLabel = "Expand" : buttonLabel = "Collapse" }</button>
             <h3 className="pr-[80px] md:basis-1/3 md:mr-4">{props.title}</h3>
 
             <div className={isShowing ? "block transition-all duration-500 min-h-fit h-[100px] opacity-1 ease-in-out mt-10 md:mt-0 md:flex md:basis-2/3" : "block transition-all duration-500 ease-in-out h-0 mt-1 md:mt-0 md:h-auto md:flex md:basis-2/3 opacity-0 overflow-hidden md:opacity-100 md:overflow-visible"}>

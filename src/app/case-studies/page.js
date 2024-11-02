@@ -9,6 +9,7 @@ import liraThumb from '../../public/caseStudies/thumbnails/lira-thumbnail.jpg';
 
 export default function CaseStudies() {
   return (
+    <div className="">
       <div className="w-screen bg-[--light-primary] px-5 sm:px-10 pt-[20vh]">
         <div className="relative container max-w-screen-xl mx-auto text-center">
           <div className="block sm:max-w-screen-lg mx-auto">
@@ -55,8 +56,10 @@ export default function CaseStudies() {
             </div>     
         </div>
 
-        <ReserveFreeCall />
-        <ContactBanner />
       </div>
+
+      <ReserveFreeCall />
+      <ContactBanner />
+    </div>
   );
 }
