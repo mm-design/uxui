@@ -37,7 +37,7 @@ import skyThumb from '../../../public/caseStudies/thumbnails/sky-thumbnail.jpg';
 export default function CaseStudies() {
   return (
       <div className="">
-        <div className="w-screen bg-[--light-primary] px-5 sm:px-10 pt-[30vh]">
+        <div className="w-screen bg-[--light-primary] px-5 sm:px-10 pt-[20vh] sm:pt-[30vh]">
           <div className="relative container max-w-screen-xl mx-auto">
             <div className="block">
               <h1 className="mb-5">Three UK</h1>
@@ -168,7 +168,7 @@ export default function CaseStudies() {
         {/* Highlight section */}
         <div>
 
-          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-40 pb-10 mt-40">
+          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-20 pb-10 mt-20">
             <span className="text-[80px] ml-[-40px] sm:text-[120px] sm:ml-[-70px] md:text-[240px] md:ml-[-70px] font-bold text-[--dark-secondary] opacity-20">Highlights</span>
             <div className="relative container max-w-screen-xl mx-auto">
               <div className="md:grid md:grid-cols-12">
@@ -187,7 +187,7 @@ export default function CaseStudies() {
             <Image src={threeukAnalysis} width={1680} height={1045} alt="Competitor B2B telco portals analysis" className="w-full block mb-10"/>
           </div>
 
-          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-10 md:pt-40 pb-10">
+          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-10 pb-10">
             <div className="relative container max-w-screen-xl mx-auto">
               <div className="md:grid md:grid-cols-12 md:items-center">
                 <div className="md:col-start-1 md:col-span-6 lg:col-start-1 lg:col-span-4">
@@ -209,7 +209,7 @@ export default function CaseStudies() {
             </div>
           </div>
 
-          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-10 md:pt-40 pb-10">
+          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-10 pb-10">
             <div className="relative container max-w-screen-xl mx-auto">
               <div className="md:grid md:grid-cols-12 md:items-center">
                 <div className="md:col-start-1 md:col-span-6 lg:col-start-1 lg:col-span-4">
@@ -226,7 +226,7 @@ export default function CaseStudies() {
             </div>
           </div>
 
-          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-10 md:pt-40 pb-10">
+          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-10 pb-10">
             <div className="relative container max-w-screen-xl mx-auto">
               <div className="md:grid md:grid-cols-12">
                 <div className="md:col-start-1 md:col-span-6 lg:col-start-1 lg:col-span-4">
@@ -243,7 +243,7 @@ export default function CaseStudies() {
             <Image src={threeukWireframeV2} width={1680} height={1045} alt="Competitor B2B telco portals analysis" className="w-full block"/>
           </div>
 
-          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-40 md:pt-40 pb-10">
+          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-32 pb-10">
             <div className="relative container max-w-screen-xl mx-auto">
               <div className="md:grid md:grid-cols-12 md:items-center">
                 <div className="md:col-start-1 md:col-span-6 lg:col-start-1 lg:col-span-4">
@@ -261,7 +261,7 @@ export default function CaseStudies() {
             </div>
           </div>
 
-          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-10 md:pt-40 pb-10">
+          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-10 pb-10">
             <div className="relative container max-w-screen-xl mx-auto">
               <div className="md:grid md:grid-cols-12">
                 <div className="md:col-start-1 md:col-span-6 lg:col-start-1 lg:col-span-4">
@@ -270,7 +270,7 @@ export default function CaseStudies() {
                   <p className="text-[--dark-secondary] mb-5">At this point I designed different solutions for the dashboard main navigation, search functionality and quick actions.</p>
                   <p className="text-[--dark-secondary] mb-5">The introduction of the customization feature was game changer. At this point I had to design different solutions to create an initial set of widgets that could display useful information, perform quick actions and promote marketing offers.</p>
                   <p className="text-[--dark-secondary] mb-5">Before create the set of widgets it was time to finalize search funcionality, quick actions and dashboard navigation so I wireframed different options.</p>
-                  <h3 className="text-[--light-primary] mt-10 mb-5">Search and quick actions</h3>
+                  <h3 className="text-[--light-primary] mt-10 mb-2">Search and quick actions</h3>
                   <p className="text-[--dark-secondary] mb-0">Full screen and side navigation layout options</p>
                 </div>
               </div>
@@ -302,7 +302,7 @@ export default function CaseStudies() {
             <div className="relative container max-w-screen-xl mx-auto">
               <div className="md:grid md:grid-cols-12">
                 <div className="md:col-start-1 md:col-span-6 lg:col-start-1 lg:col-span-4">
-                  <h3 className="text-[--light-primary] mt-10 mb-5">Main navigation</h3>
+                  <h3 className="text-[--light-primary] mt-10 mb-2">Main navigation</h3>
                   <p className="text-[--dark-secondary] mb-0">Top, side and sticky navigation options</p>
                 </div>
               </div>
@@ -325,7 +325,7 @@ export default function CaseStudies() {
             <div className="relative container max-w-screen-xl mx-auto">
               <div className="md:grid md:grid-cols-12">
                 <div className="md:col-start-1 md:col-span-6 lg:col-start-1 lg:col-span-4">
-                  <h3 className="text-[--light-primary] mt-10 mb-5">Widgets</h3>
+                  <h3 className="text-[--light-primary] mt-10 mb-2">Widgets</h3>
                   <p className="text-[--dark-secondary] mb-0">The initial set of widgets to create the dashboard views: Corporate - BAN - MSIDN</p>
                 </div>
               </div>
@@ -336,7 +336,7 @@ export default function CaseStudies() {
             <Image src={threeukWidgets} width={1681} height={1262} alt="Initial set of widgets for the dashboard" className="w-full block"/>
           </div>
 
-          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-40 md:pt-40 pb-10">
+          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-32 pb-10">
             <div className="relative container max-w-screen-xl mx-auto">
               <div className="md:grid md:grid-cols-12">
                 <div className="md:col-start-1 md:col-span-6 lg:col-start-1 lg:col-span-4">
@@ -348,7 +348,7 @@ export default function CaseStudies() {
             </div>
           </div>
 
-          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pb-10">
+          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10">
             <div className="relative container max-w-screen-xl mx-auto">
 
                 <div className="md:grid md:grid-cols-12 md:items-center">
@@ -375,7 +375,7 @@ export default function CaseStudies() {
                     </div>
 
                     <div className="order-first lg:order-last md:col-start-1 md:col-span-6 lg:col-start-9 lg:col-span-4 mt-20 md:mt-0">
-                        <h3 className="text-[--light-primary] mt-10 md:mt-0 mb-5">Raise a case</h3>
+                        <h3 className="text-[--light-primary] mt-2 md:mt-0 mb-5">Raise a case</h3>
                         <p className="text-[--dark-secondary] mb-5">The layout is a simple one column that clearly shows the form with all the required information to raise a case.</p>
                         <p className="text-[--dark-secondary] mb-5">If users have a dedicated Customer Success Manager, the related box with its name, surname and contact number is displayed before the form.</p>
                         <p className="text-[--dark-secondary] mb-5">Once the process is completed a succesfull message is displayed and it shows the case reference number  with useful related information.</p>
@@ -385,7 +385,7 @@ export default function CaseStudies() {
             </div>
           </div>
 
-          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-10 md:pt-40 pb-10">
+          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-32 pb-10">
             <div className="relative container max-w-screen-xl mx-auto">
               <div className="md:grid md:grid-cols-12">
                 <div className="md:col-start-1 md:col-span-6 lg:col-start-1 lg:col-span-4">
@@ -403,7 +403,7 @@ export default function CaseStudies() {
             </div>
           </div>
 
-          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-10 md:pt-40 pb-10 md:pb-40">
+          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-10 pb-20 sm:pb-40">
             <div className="relative container max-w-screen-xl mx-auto">
 
               <div className="md:grid md:grid-cols-12">
@@ -456,7 +456,7 @@ export default function CaseStudies() {
         </div>
 
        {/* Results section */}
-       <div className="relative w-screen bg-[--light-primary] px-5 sm:px-10 mt-20">
+       <div className="relative w-screen bg-[--light-primary] px-5 sm:px-10 mt-16 sm:mt-10">
        <span className="text-[80px] ml-[-40px] sm:text-[120px] sm:ml-[-70px] md:text-[240px] md:ml-[-70px] font-bold text-[--dark-secondary] opacity-20">Results</span>
           <div className="relative container max-w-screen-sm mx-auto mt-0 md:mt-[-115px]">
             <p className="uppercase text-[19px] leading-[23px] md:text-[21px] md:leading-[27px] text-[--dark-primary] mb-10">In just 2 months, we successfully met client expectations by providing all necessary information and materials, enabling the client to make informed decisions about the portal's development.</p>
@@ -466,7 +466,7 @@ export default function CaseStudies() {
         </div>
 
         {/* Next cases section */}
-        <div className="relative w-screen bg-[--light-primary] px-5 sm:px-10 mt-20">
+        <div className="relative w-screen bg-[--light-primary] px-5 sm:px-10 mt-16 sm:mt-10">
           <span className="text-[80px] ml-[-40px] sm:text-[120px] whitespace-nowrap sm:ml-[-70px] md:text-[240px] md:ml-[-70px] font-bold text-[--dark-secondary] opacity-20">Next Cases</span>          
           <div className="md:flex md:justify-between container max-w-screen-xl mx-auto mt-5 md:mt-[-40px] relative z-[50]">
               <div className=" md:mr-5">
