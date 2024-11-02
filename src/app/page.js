@@ -10,6 +10,10 @@ import CaseCard from "@/components/caseStudies/CaseCard";
 import unicaThumb from '../public/caseStudies/thumbnails/unica-thumbnail.jpg';
 import threeukThumb from '../public/caseStudies/thumbnails/threeuk-thumbnail.jpg';
 
+export const metadata = {
+  title: "Designing Digital Products for International Brands: Discover How I Can Elevate Your Brand",
+  description: "I provide bespoke design services to help you overcome common web project challenges and build an effective digital product.",
+};
 
 export default function Home() {
 

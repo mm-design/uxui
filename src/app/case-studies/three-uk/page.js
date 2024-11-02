@@ -33,6 +33,10 @@ import CaseCard from "@/components/caseStudies/CaseCard";
 import unicaThumb from '../../../public/caseStudies/thumbnails/unica-thumbnail.jpg';
 import skyThumb from '../../../public/caseStudies/thumbnails/sky-thumbnail.jpg';
 
+export const metadata = {
+  title: "MVP of Digital Corporate Portal for Three UK: UX UI Case Study",
+  description: "Developing a Digital Corporate Portal for businesses with over 50 connections, enabling self-service account management for medium, large, corporate, and public sector clients.",
+};
 
 export default function CaseStudies() {
   return (

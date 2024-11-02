@@ -1,3 +1,8 @@
+export const metadata = {
+  title: "Cookie Policy",
+  description: "Learn about my Cookie Policy to understand the cookies I use, their purpose, and how to manage your preferences.",
+};
+
 export default function CookiePolicy() {
   return (
     <div className="">

@@ -28,7 +28,10 @@ import skySupportTitle from '../../../public/caseStudies/sky/sky-support-title.p
 import skyAnimSupportGif from '../../../public/caseStudies/sky/sky-anim-support.gif';
 import skySupportDescription from '../../../public/caseStudies/sky/sky-support-description.png';
 
-
+export const metadata = {
+  title: "Sky Home Move Digital Service: UX UI Case Study",
+  description: "Developing a digital service to keep Sky’s clients informed and entertained during their move, bridging digital and voice support for a seamless transition.",
+};
 
 export default function CaseStudies() {
   return (

@@ -1,5 +1,10 @@
 import ExternalTextLink from "@/components/ExternalTextLink";
 
+export const metadata = {
+  title: "Contact: Freelance UX/UI Designer for Your Digital Project",
+  description: "Get in touch to bring your digital ideas to life and let's work together to create impactful, user-friendly products",
+};
+
 export default function Contact() {
   return (
         <div className="w-screen lg:h-screen lg:flex lg:flex-col lg:justify-center bg-[--light-primary] px-5 sm:px-10 py-[40vh] lg:py-0">

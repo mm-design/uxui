@@ -14,6 +14,11 @@ import iconDeploy from '../../public/icon-deploy.png';
 import ReserveFreeCall from "@/components/ReserveFreeCall";
 import ContactBanner from "@/components/ContactBanner";
 
+export const metadata = {
+  title: "Mauro Micozzi: UX UI Designer and Front-End Developer",
+  description: "With over a decade in digital design, I offer the expertise to elevate your product, delivering agency-level impact as a solo expert.",
+};
+
 export default function About() {
   return (
     <div className="">

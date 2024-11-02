@@ -32,7 +32,10 @@ import unicaStatsUIMix from '../../../public/caseStudies/unica/unica-statistics-
 import unicaPresenttionScreen from '../../../public/caseStudies/unica/unica-presentation-screen.png';
 import unicaMiroUILibrary from '../../../public/caseStudies/unica/unica-miro-ui-library.png';
 
-
+export const metadata = {
+  title: "Unica Web Platform: UX UI Case Study",
+  description: "Designing a centralized web platform for the Italian Ministry of Education and Merit, offering students and families streamlined access to resources, educational services, and guidance tools.",
+};
 
 export default function CaseStudies() {
   return (

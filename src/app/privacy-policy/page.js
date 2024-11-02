@@ -1,5 +1,11 @@
 import Image from "next/image";
 
+export const metadata = {
+  title: "Privacy Policy",
+  description: "Review the Privacy Policy to understand how I collect, use, and protect your personal information. Your privacy is my priority while you engage with my services.",
+};
+
+
 export default function PrivacyPolicy() {
   return (
     <div className="">

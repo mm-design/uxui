@@ -22,6 +22,11 @@ import liraAdminSubpages from '../../../public/caseStudies/lira/lira-admin-subpa
 import liraPrototype from '../../../public/caseStudies/lira/lira-prototype.jpg';
 import liraChatbot from '../../../public/caseStudies/lira/lira-chatbot.png';
 
+export const metadata = {
+  title: "L.I.R.A. New Corporate Website: UX UI Case Study",
+  description: "Creating a modern corporate website with improved content structure, accessibility, and a built-in automated chatbot for enhanced customer support.",
+};
+
 
 export default function CaseStudies() {
   return (

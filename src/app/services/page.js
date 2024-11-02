@@ -3,6 +3,11 @@ import ContactBanner from "@/components/ContactBanner";
 import Accordion from "@/components/services/Accordion";
 import VectorShapes from "@/components/home/VectorShapes";
 
+export const metadata = {
+  title: "UX UI and Web Development: Design Solutions for your Digital Product",
+  description: "Discover how my expertise across various design disciplines can create effective digital products with clear objectives and deliverables.",
+};
+
 export default function Services() {
 
   return (
