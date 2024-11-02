@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 function ReserveFreeCallCTA() {
     return (
-        <Link href="" target="_blank" className="inline-block">
+        <Link href="https://calendly.com/mau-micozzi/30min" target="_blank" className="inline-block">
             <div className="relative w-[140px] h-[140px]">
                 <div className="absolute w-[90px] h-[90px] left-[50%] top-[50%] ml-[-45px] mt-[-45px] rounded-full bg-gradient-to-br from-[#F9F9F9] to-[#CFDAE9]"></div>
                 <Image src={googleMeet} width={57} height={46} alt="Google Meet logo" className="absolute left-[50%] top-[50%] ml-[-28px] mt-[-23px]"/>

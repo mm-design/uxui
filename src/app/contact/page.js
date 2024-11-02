@@ -23,14 +23,14 @@ export default function Contact() {
                   <div className="block mt-20 lg:mt-0">
                     <h2 className="text-[--dark-secondary] mb-3">Have <span className="text-[--dark-primary] uppercase">an idea</span> but need direction and guidance?</h2>
                     <p className="text-[--dark-secondary] mb-5">Great! Share all the details during your 30-minute free consultation on Google Meet and receive instant feedback.</p>
-                    <ExternalTextLink color="dark" href="" text="Reserve free consultation" />
+                    <ExternalTextLink color="dark" href="https://calendly.com/mau-micozzi/30min" target="_blank" text="Reserve free consultation" />
                   </div>
                 </div>
                 <div className="">
                   <div className="block mt-20 lg:mt-0">
                     <h2 className="text-[--dark-secondary] mb-3"><span className="text-[--dark-primary] uppercase">Know exactly</span> what you're looking for?</h2>
                     <p className="text-[--dark-secondary] mb-5">Perfect! Just fill out the required information on Google Forms and you’ll receive the quote asap, usually within 48-72 hours.</p>
-                    <ExternalTextLink color="dark" href="" text="Request quote" />
+                    <ExternalTextLink color="dark" href="https://forms.gle/RQPZzaPoHGLd8qsi7" target="blank" text="Request quote" />
                   </div>
                 </div>
                 
