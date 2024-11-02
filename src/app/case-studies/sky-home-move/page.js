@@ -33,7 +33,7 @@ import skySupportDescription from '../../../public/caseStudies/sky/sky-support-d
 export default function CaseStudies() {
   return (
       <div className="">
-        <div className="w-screen bg-[--light-primary] px-5 sm:px-10 pt-[30vh]">
+        <div className="w-screen bg-[--light-primary] px-5 sm:px-10 pt-[20vh] sm:pt-[30vh]">
           <div className="relative container max-w-screen-xl mx-auto">
             <div className="block">
               <h1 className="mb-5">Sky Home Move</h1>
@@ -158,7 +158,7 @@ export default function CaseStudies() {
 
         <div>
 
-          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-40 pb-10 mt-40">
+          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-20 pb-10 mt-20">
             <span className="text-[80px] ml-[-40px] sm:text-[120px] sm:ml-[-70px] md:text-[240px] md:ml-[-70px] font-bold text-[--dark-secondary] opacity-20">Highlights</span>
             <div className="relative container max-w-screen-xl mx-auto">
               <div className="md:grid md:grid-cols-12">
@@ -177,7 +177,7 @@ export default function CaseStudies() {
             <Image src={skyHmAnalysis} width={1653} height={589} alt="Sky Home Move Hub reuirements and screens already designed" className="w-full block mb-10"/>
           </div>
 
-          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-10 md:pt-40 pb-10">
+          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-10 pb-5">
             <div className="relative container max-w-screen-xl mx-auto">
               <div className="md:grid md:grid-cols-12">
                 <div className="md:col-start-1 md:col-span-6 lg:col-start-1 lg:col-span-4">
@@ -195,7 +195,7 @@ export default function CaseStudies() {
             </div>
           </div>
 
-          <div className="w-screen grid grid-cols-1 md:grid-cols-12 gap-2 bg-[--dark-primary] pt-2">
+          <div className="w-screen grid grid-cols-1 md:grid-cols-12 gap-2 bg-[--dark-primary]">
             <div className="md:col-start-1 md:col-span-6 bg-gradient-to-br from-[#FF6B5E] to-[#3440EF] p-10 md:p-20">
               <Image src={skyHmMobile} width={628} height={786} alt="Sky Home Move homepage redesign" className="w-full block"/>
             </div>
@@ -215,7 +215,7 @@ export default function CaseStudies() {
             </div>
           </div>
 
-          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-10 md:pt-40 pb-10">
+          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-28 pb-5">
             <div className="relative container max-w-screen-xl mx-auto">
               <div className="md:grid md:grid-cols-12">
                 <div className="md:col-start-1 md:col-span-6 lg:col-start-1 lg:col-span-4">
@@ -231,7 +231,7 @@ export default function CaseStudies() {
             <Image src={skyHmTrackingAccordion} width={1468} height={692} alt="Sky Home Move tracking process designed with accordion components" className="w-full block"/>
           </div>
 
-          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-10 md:pt-40 pb-10">
+          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-28 pb-10">
             <div className="relative container max-w-screen-xl mx-auto">
               <div className="md:grid md:grid-cols-12 md:items-center">
                 <div className="md:col-start-1 md:col-span-6 lg:col-start-1 lg:col-span-4">
@@ -243,14 +243,14 @@ export default function CaseStudies() {
                   <p className="text-[--dark-secondary] mb-5">Ultimately, we decided to discard this solution in favor of the accordion approach, as explained earlier.</p>
                 </div>
                 
-                <div className="md:col-start-1 md:col-span-12 lg:col-start-6 lg:col-span-7">
+                <div className="md:col-start-1 md:col-span-12 lg:col-start-6 lg:col-span-7 pt-5">
                   <Image src={skyHmTrackingTimeline} width={708} height={938} alt="Sky Home Move tracking solution with timeline component" className="w-full block mb-10"/>
                 </div>
               </div>
             </div>
           </div>
 
-          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-10 md:pt-40 pb-10">
+          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-10 pb-5">
             <div className="relative container max-w-screen-xl mx-auto">
               <div className="md:grid md:grid-cols-12">
                 <div className="md:col-start-1 md:col-span-6 lg:col-start-1 lg:col-span-4">
@@ -263,7 +263,7 @@ export default function CaseStudies() {
             </div>
           </div>
 
-          <div className="w-screen grid grid-cols-1 md:grid-cols-12 gap-2 bg-[--dark-primary] pt-2">
+          <div className="w-screen grid grid-cols-1 md:grid-cols-12 gap-2 bg-[--dark-primary] pt-2 pb-2">
             <div className="md:col-start-1 md:col-span-6 bg-gradient-to-br from-[#FF6B5E] to-[#3440EF] p-10 md:p-20">
               <Image src={skyHmPublicPage} width={628} height={786} alt="Sky Home Move dedicated page design" className="w-full block"/>
             </div>
@@ -304,7 +304,7 @@ export default function CaseStudies() {
         
 
        {/* Results section */}
-       <div className="relative w-screen bg-[--light-primary] px-5 sm:px-10 mt-20">
+       <div className="relative w-screen bg-[--light-primary] px-5 sm:px-10 mt-16 sm:mt-10">
        <span className="text-[80px] ml-[-40px] sm:text-[120px] sm:ml-[-70px] md:text-[240px] md:ml-[-70px] font-bold text-[--dark-secondary] opacity-20">Results</span>
           <div className="relative container max-w-screen-sm mx-auto mt-0 md:mt-[-115px]">
             <p className="uppercase text-[19px] leading-[23px] md:text-[21px] md:leading-[27px] text-[--dark-primary] mb-10">We successfully finalized the project and delivered an interactive prototype of the Home Move digital service to the client.</p>
@@ -313,7 +313,7 @@ export default function CaseStudies() {
         </div>
 
         {/* Next cases section */}
-        <div className="relative w-screen bg-[--light-primary] px-5 sm:px-10 mt-20">
+        <div className="relative w-screen bg-[--light-primary] px-5 sm:px-10 mt-16 sm:mt-10">
           <span className="text-[80px] ml-[-40px] sm:text-[120px] whitespace-nowrap sm:ml-[-70px] md:text-[240px] md:ml-[-70px] font-bold text-[--dark-secondary] opacity-20">Next Cases</span>          
           <div className="md:flex md:justify-between container max-w-screen-xl mx-auto mt-5 md:mt-[-40px] relative z-[50]">
               <div className=" md:mr-5">

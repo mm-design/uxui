@@ -26,7 +26,7 @@ import liraChatbot from '../../../public/caseStudies/lira/lira-chatbot.png';
 export default function CaseStudies() {
   return (
       <div className="">
-        <div className="w-screen bg-[--light-primary] px-5 sm:px-10 pt-[30vh]">
+        <div className="w-screen bg-[--light-primary] px-5 sm:px-10 pt-[20vh] sm:pt-[30vh]">
           <div className="relative container max-w-screen-xl mx-auto">
             <div className="block">
               <h1 className="mb-5">L.I.R.A.</h1>
@@ -152,7 +152,7 @@ export default function CaseStudies() {
         {/* Highlight section */}
         <div>
 
-          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-10 md:pt-40 pb-10 mt-40">
+          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-20 pb-10 mt-20">
             <span className="text-[80px] ml-[-40px] sm:text-[120px] sm:ml-[-70px] md:text-[240px] md:ml-[-70px] font-bold text-[--dark-secondary] opacity-20">Highlights</span>
             <div className="relative container max-w-screen-xl mx-auto">
               <div className="md:grid md:grid-cols-12 md:items-center">
@@ -170,7 +170,7 @@ export default function CaseStudies() {
             </div>
           </div>
 
-          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-10 md:pt-40 pb-10">
+          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-10 pb-10">
             <div className="relative container max-w-screen-xl mx-auto">
               <div className="md:grid md:grid-cols-12">
                 <div className="md:col-start-1 md:col-span-6 lg:col-start-1 lg:col-span-4">
@@ -185,7 +185,7 @@ export default function CaseStudies() {
             </div>
           </div>
 
-          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-10 md:pt-40 pb-10">
+          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-10 pb-10">
             <div className="relative container max-w-screen-xl mx-auto">
               <div className="md:grid md:grid-cols-12">
                 <div className="md:col-start-1 md:col-span-6 lg:col-start-1 lg:col-span-4">
@@ -202,7 +202,7 @@ export default function CaseStudies() {
             <Image src={liraWireframe} width={1680} height={915} alt="Mix of wireframes designed for Lira's website" className="w-full block"/>
           </div>
 
-          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-10 md:pt-40 pb-40">
+          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-28 pb-0">
             <div className="relative container max-w-screen-xl mx-auto">
               <div className="md:grid md:grid-cols-12">
                 <div className="md:col-start-1 md:col-span-6 lg:col-start-1 lg:col-span-4">
@@ -215,16 +215,16 @@ export default function CaseStudies() {
               </div>
 
               
-              <h3 className="md:col-start-1 md:col-span-6 text-[--light-primary] mt-10 mb-5">Primary palette</h3>
-              <div className="grid md:grid-cols-12 mt-10 gap-2">
+              <h3 className="md:col-start-1 md:col-span-6 text-[--light-primary] mt-10">Primary palette</h3>
+              <div className="grid md:grid-cols-12 mt-5 gap-2">
                 <div className="col-start-1 col-span-6 md:col-span-3 h-[160px] bg-[#003340]"></div>
                 <div className="col-start-7 col-span-6 md:col-span-3 h-[160px] bg-[#00667F]"></div>
                 <div className="col-start-1 col-span-6 md:col-span-3 h-[160px] bg-[#00A6D6]"></div>
                 <div className="col-start-7 col-span-6 md:col-span-3 h-[160px] bg-[#FF7801]"></div>
               </div>
 
-              <h3 className="md:col-start-1 md:col-span-6 text-[--light-primary] mt-20 mb-5">Secondary palette</h3>
-              <div className="grid md:grid-cols-10 mt-10 gap-2">
+              <h3 className="md:col-start-1 md:col-span-6 text-[--light-primary] mt-14">Secondary palette</h3>
+              <div className="grid md:grid-cols-10 mt-5 gap-2">
                 <div className="col-start-1 col-span-2 md:col-span-2 h-[80px] md:h-[160px] bg-[#7A7A7A]"></div>
                 <div className="col-start-3 col-span-2 md:col-span-2 h-[80px] md:h-[160px] bg-[#F5F5F5]"></div>
                 <div className="col-start-5 col-span-2 md:col-span-2 h-[80px] md:h-[160px] bg-[#FFFFFF]"></div>
@@ -232,8 +232,8 @@ export default function CaseStudies() {
                 <div className="col-start-9 col-span-2 md:col-span-2 h-[80px] md:h-[160px] bg-[#FEA901]"></div>
               </div>
 
-              <h3 className="md:col-start-1 md:col-span-6 text-[--light-primary] mt-20 mb-5">Font family: Roboto</h3>
-              <div className="grid md:grid md:grid-cols-12 mt-10 gap-2">
+              <h3 className="md:col-start-1 md:col-span-6 text-[--light-primary] mt-14">Font family: Roboto</h3>
+              <div className="grid md:grid md:grid-cols-12 mt-5 gap-2">
                 <div className="block md:col-start-1 md:col-span-4 bg-[--dark-background] rounded-[10px] p-8">
                   <p className="text-[--light-primary] opacity-50 mb-5">Regular</p>
                   <Image src={liraRalewayRegular} width={332} height={119} alt="Raleway font: regular weight" className="w-full block"/>
@@ -252,7 +252,7 @@ export default function CaseStudies() {
             </div>
           </div>
 
-          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-20 pb-10">
+          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-28 pb-10">
             <div className="relative container max-w-screen-xl mx-auto">
               <div className="md:grid md:grid-cols-12">
                 <div className="md:col-start-1 md:col-span-6 lg:col-start-1 lg:col-span-4">
@@ -287,7 +287,7 @@ export default function CaseStudies() {
                   <Image src={liraWaterHeatServices} width={719} height={910} alt="Water and Heat service pages" className="w-full block md:mb-10 mt-10 md:mt-0"/>
                 </div>
 
-                <div className="order-first lg:order-last md:col-start-1 md:col-span-6 lg:col-start-9 lg:col-span-4 mt-28 md:mt-0">
+                <div className="order-first lg:order-last md:col-start-1 md:col-span-6 lg:col-start-9 lg:col-span-4 mt-20 md:mt-0">
                   <h3 className="text-[--light-primary] md:mt-0 mb-5">Main services: Water and Heating</h3>
                   <p className="text-[--dark-secondary] mb-5">The main service areas use distinct color schemes to visually distinguish each focus area: Water and Heating.</p>
                   <p className="text-[--dark-secondary] mb-5">Both pages feature a tabbed navigation below the main header to display content for different audiences (tenants and administrators).</p>
@@ -297,7 +297,7 @@ export default function CaseStudies() {
               </div>
 
               <div className="md:grid md:grid-cols-12 md:items-center pt-0 md:pt-20">
-                <div className="md:col-start-1 md:col-span-6 lg:col-start-1 lg:col-span-4 mt-28 md:mt-0">
+                <div className="md:col-start-1 md:col-span-6 lg:col-start-1 lg:col-span-4 mt-20 md:mt-0">
                   <h3 className="text-[--light-primary] md:mt-0 mb-5">Tenants dedicated page</h3>
                   <p className="text-[--dark-secondary] mb-5">The main page for tenant users incorporates the same service content blocks used on the homepage, providing a consistent user experience.</p>
                   <p className="text-[--dark-secondary] mb-5">Following the list of main services, along with CTAs to explore all options, a dedicated payments section outlines various payment methods and their benefits.</p>
@@ -312,11 +312,11 @@ export default function CaseStudies() {
             </div>
           </div>
 
-          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-20 pb-10">
+          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-10 pb-5">
             <div className="relative container max-w-screen-xl mx-auto">
               <div className="md:grid md:grid-cols-12">
                 <div className="md:col-start-1 md:col-span-6 lg:col-start-1 lg:col-span-4">
-                  <h3 className="text-[--light-primary] mt-10 mb-5">Tenants subpages for desktop and mobile devices</h3>
+                  <h3 className="text-[--light-primary] mb-5">Tenants subpages for desktop and mobile devices</h3>
                   <p className="text-[--dark-secondary] mb-5">Below is a quick overview of the tenant user subpages, including Services, Payments, Support, Saving Guides, Modules, Useful Links, and more.</p>
                 </div>
               </div>
@@ -327,10 +327,10 @@ export default function CaseStudies() {
             <Image src={liraTenantsSubpages} width={1680} height={915} alt="Tenant users subpages" className="w-full block"/>
           </div>
 
-          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-20 pb-10">
+          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-10 pb-10">
             <div className="relative container max-w-screen-xl mx-auto">
               <div className="md:grid md:grid-cols-12 md:items-center pt-0 md:pt-20">
-                <div className="md:col-start-1 md:col-span-6 lg:col-start-1 lg:col-span-4 mt-28 md:mt-0">
+                <div className="md:col-start-1 md:col-span-6 lg:col-start-1 lg:col-span-4 mt-20 md:mt-0">
                     <h3 className="text-[--light-primary] md:mt-0 mb-5">Administrators dedicated page</h3>
                     <p className="text-[--dark-secondary] mb-5">The page opens with a main header featuring the brand proposition for administrator users, accompanied by related CTAs for logging into the private area or registering.</p>
                     <p className="text-[--dark-secondary] mb-5">Next, the three primary services for this audience are prominently listed, each paired with custom illustrations and clear CTAs directing users to the dedicated pages.</p>
@@ -338,13 +338,13 @@ export default function CaseStudies() {
                 </div>
                   
                   <div className="md:col-start-1 md:col-span-12 lg:col-start-6 lg:col-span-7">
-                    <Image src={liraAdminPage} width={720} height={755} alt="Administrator users dedicated page" className="w-full block md:mb-10 mt-10 md:mt-0"/>
+                    <Image src={liraAdminPage} width={720} height={755} alt="Administrator users dedicated page" className="w-full block"/>
                   </div>
               </div>  
             </div>
           </div>
 
-          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-10 md:pt-40 pb-10">
+          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-10 pb-10">
             <div className="relative container max-w-screen-xl mx-auto">
               <div className="md:grid md:grid-cols-12">
                 <div className="md:col-start-1 md:col-span-6 lg:col-start-1 lg:col-span-4">
@@ -355,15 +355,15 @@ export default function CaseStudies() {
                   <p className="text-[--dark-secondary] mb-5">Upon completing the form, users are taken to a thank-you page displaying a confirmation message, along with information about next steps and other main services.</p>
                 </div>
               </div>
-              <Image src={liraAdminLeadFunnel} width={1226} height={894} alt="Lead generation funnel for administators based on the service" className="w-full block mt-10 mb-10"/>
+              <Image src={liraAdminLeadFunnel} width={1226} height={894} alt="Lead generation funnel for administators based on the service" className="w-full block mt-10"/>
             </div>
           </div>
 
-          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-20 pb-10">
+          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-10 pb-5">
             <div className="relative container max-w-screen-xl mx-auto">
               <div className="md:grid md:grid-cols-12">
                 <div className="md:col-start-1 md:col-span-6 lg:col-start-1 lg:col-span-4">
-                  <h3 className="text-[--light-primary] mt-10 mb-5">Administrators subpages for desktop and mobile devices</h3>
+                  <h3 className="text-[--light-primary] mb-5">Administrators subpages for desktop and mobile devices</h3>
                   <p className="text-[--dark-secondary] mb-5">Below is a quick overview of the administrator user subpages, including Services, Support, Useful Links, and more.</p>
                 </div>
               </div>
@@ -374,11 +374,11 @@ export default function CaseStudies() {
             <Image src={liraAdminSubpages} width={1680} height={915} alt="Administrator users subpages" className="w-full block"/>
           </div>
 
-          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-10 md:pt-40 pb-10">
+          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-28 pb-0">
             <div className="relative container max-w-screen-xl mx-auto">
               <div className="md:grid md:grid-cols-12 md:items-center">
                 <div className="md:col-start-1 md:col-span-6 lg:col-start-1 lg:col-span-4">
-                  <span className="block text-[15px] text-[--dark-secondary]">7 / 7</span>
+                  <span className="block text-[15px] text-[--dark-secondary]">6 / 7</span>
                    <h2 className="text-[--light-primary] mt-3 mb-8">Creating an interactive prototype for final review before starting the development phase</h2>
                   <p className="text-[--dark-secondary] mb-5">At this stage, we had finalized the user interface for both desktop and mobile devices, incorporating the  content provided by the copywriter. </p>
                   <p className="text-[--dark-secondary] mb-5">We built an interactive prototype to allow the client to navigate the website pages, provide final feedback to refine the last details, and approve the user interface to proceed with the development phase.</p>
@@ -388,13 +388,13 @@ export default function CaseStudies() {
                 </div>
                 
                 <div className="md:col-start-1 md:col-span-12 lg:col-start-6 lg:col-span-7">
-                  <Image src={liraPrototype} width={710} height={571} alt="Lira ptototype flow created in Figma" className="w-full block mb-10"/>
+                  <Image src={liraPrototype} width={710} height={571} alt="Lira ptototype flow created in Figma" className="w-full block mt-10 md:mt-0"/>
                 </div>
               </div>
             </div>
           </div>
 
-          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-40 pb-10">
+          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-28 pb-5">
             <div className="relative container max-w-screen-xl mx-auto">
               <div className="md:grid md:grid-cols-12">
                 <div className="md:col-start-1 md:col-span-6 lg:col-start-1 lg:col-span-4">
@@ -409,7 +409,7 @@ export default function CaseStudies() {
             </div>
           </div>
 
-          <div className="w-screen bg-[--dark-primary] pb-32">
+          <div className="w-screen bg-[--dark-primary] pb-20 sm:pb-40">
             <Image src={liraChatbot} width={1659} height={916} alt="Chatbot flow and integration on WordPress website" className="w-full block mb-10"/>
           </div>
 
@@ -419,7 +419,7 @@ export default function CaseStudies() {
        
 
        {/* Results section */}
-       <div className="relative w-screen bg-[--light-primary] px-5 sm:px-10 mt-20">
+       <div className="relative w-screen bg-[--light-primary] px-5 sm:px-10 mt-16 sm:mt-10">
           <span className="text-[80px] ml-[-40px] sm:text-[120px] sm:ml-[-70px] md:text-[240px] md:ml-[-70px] font-bold text-[--dark-secondary] opacity-20">Results</span>
           <div className="relative container max-w-screen-sm mx-auto mt-0 md:mt-[-115px]">
             <p className="uppercase text-[19px] leading-[23px] md:text-[21px] md:leading-[27px] text-[--dark-primary] mb-10">Client expectations were fully met, allowing users to easily access information about L.I.R.A.'s services through the new content organization of the website. In addition users now have an automated digital service for customer assistance that is always available to help.</p>
@@ -429,7 +429,7 @@ export default function CaseStudies() {
         </div>
 
         {/* Next cases section */}
-        <div className="relative w-screen bg-[--light-primary] px-5 sm:px-10 mt-20">
+        <div className="relative w-screen bg-[--light-primary] px-5 sm:px-10 mt-16 sm:mt-10">
           <span className="text-[80px] ml-[-40px] sm:text-[120px] whitespace-nowrap sm:ml-[-70px] md:text-[240px] md:ml-[-70px] font-bold text-[--dark-secondary] opacity-20">Next Cases</span>          
           <div className="md:flex md:justify-between container max-w-screen-xl mx-auto mt-5 md:mt-[-40px] relative z-[50]">
               <div className=" md:mr-5">
