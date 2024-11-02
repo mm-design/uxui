@@ -37,7 +37,7 @@ import unicaMiroUILibrary from '../../../public/caseStudies/unica/unica-miro-ui-
 export default function CaseStudies() {
   return (
       <div className="">
-        <div className="w-screen bg-[--light-primary] px-5 sm:px-10 pt-[30vh]">
+        <div className="w-screen bg-[--light-primary] px-5 sm:px-10 pt-[20vh] sm:pt-[30vh]">
           <div className="relative container max-w-screen-xl mx-auto">
             <div className="block">
               <h1 className="mb-5">Unica</h1>
@@ -163,7 +163,7 @@ export default function CaseStudies() {
 
         <div>
 
-          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-40 pb-10 mt-40">
+          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-20 pb-10 mt-20">
             <span className="text-[80px] ml-[-40px] sm:text-[120px] sm:ml-[-70px] md:text-[240px] md:ml-[-70px] font-bold text-[--dark-secondary] opacity-20">Highlights</span>
             <div className="relative container max-w-screen-xl mx-auto">
               <div className="md:grid md:grid-cols-12">
@@ -181,7 +181,7 @@ export default function CaseStudies() {
             <Image src={unicaAnalysis} width={1664} height={872} alt="E-Portfolio requirements and fetures analysis" className="w-full block mb-10"/>
           </div>
 
-          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-10 md:pt-40 pb-10">
+          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-10 pb-10">
             <div className="relative container max-w-screen-xl mx-auto">
               <div className="md:grid md:grid-cols-12">
                 <div className="md:col-start-1 md:col-span-6 lg:col-start-1 lg:col-span-4">
@@ -195,7 +195,7 @@ export default function CaseStudies() {
             </div>
           </div>
 
-          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-10 pb-10">
+          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 py-2 pb-5">
             <div className="relative container max-w-screen-xl mx-auto">
               <div className="md:grid md:grid-cols-12">
                 <div className="md:col-start-1 md:col-span-6 lg:col-start-1 lg:col-span-4">
@@ -223,7 +223,7 @@ export default function CaseStudies() {
             </div>
           </div>
 
-          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-20 pb-10">
+          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-20 pb-5">
             <div className="relative container max-w-screen-xl mx-auto">
               <div className="md:grid md:grid-cols-12">
                 <div className="md:col-start-1 md:col-span-6 lg:col-start-1 lg:col-span-4">
@@ -250,7 +250,7 @@ export default function CaseStudies() {
             </div>
           </div>
 
-          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-40 pb-10">
+          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-28 pb-10">
             <div className="relative container max-w-screen-xl mx-auto">
               <div className="md:grid md:grid-cols-12">
                 <div className="md:col-start-1 md:col-span-6 lg:col-start-1 lg:col-span-4">
@@ -273,7 +273,7 @@ export default function CaseStudies() {
             <Image src={unicaEportfolioJourneys} width={1582} height={1738} alt="E-Portfolio user journeys for students" className="w-full block mb-10"/>
           </div>
 
-          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-20 pb-10">
+          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-10 pb-10">
             <div className="relative container max-w-screen-xl mx-auto">
               <div className="md:grid md:grid-cols-12">
                 <div className="md:col-start-1 md:col-span-6 lg:col-start-1 lg:col-span-4">
@@ -304,7 +304,7 @@ export default function CaseStudies() {
                   <Image src={unicaMasterpieceUpload} width={705} height={664} alt="How to upload the masterpiece" className="w-full block md:mb-10 mt-10 md:mt-0"/>
                 </div>
 
-                <div className="order-first lg:order-last md:col-start-1 md:col-span-6 lg:col-start-9 lg:col-span-4 mt-28 md:mt-0">
+                <div className="order-first lg:order-last md:col-start-1 md:col-span-6 lg:col-start-9 lg:col-span-4 mt-20 md:mt-0">
                   <h3 className="text-[--light-primary] md:mt-0 mb-5">Main steps to upload the Masterpiece</h3>
                   <p className="text-[--dark-secondary] mb-5">The journey is divided into three steps, where students must input all the required information to complete the process.</p>
                   <p className="text-[--dark-secondary] mb-5">The main layout consists of two columns: </p>
@@ -317,7 +317,7 @@ export default function CaseStudies() {
               </div>
 
               <div className="md:grid md:grid-cols-12 md:items-center pt-0 md:pt-20">
-                <div className="md:col-start-1 md:col-span-6 lg:col-start-1 lg:col-span-4 mt-28 md:mt-0">
+                <div className="md:col-start-1 md:col-span-6 lg:col-start-1 lg:col-span-4 mt-20 md:mt-0">
                   <h3 className="text-[--light-primary] md:mt-0 mb-5">Save the Masterpiece as a draft and complete the process later</h3>
                   <p className="text-[--dark-secondary] mb-5">A fullscreen modal is displayed when students click the CTA to save the masterpiece as a draft or attempt to exit the journey using the X icon in the top right corner.</p>
                   <p className="text-[--dark-secondary] mb-5">They can choose to save and exit (main CTA) or leave without saving (secondary CTA).</p>
@@ -338,7 +338,7 @@ export default function CaseStudies() {
                   <Image src={unicaMasterpieceUpload} width={705} height={664} alt="How to upload the masterpiece" className="w-full block md:mb-10 mt-10 md:mt-0"/>
                 </div>
 
-                <div className="order-first lg:order-last md:col-start-1 md:col-span-6 lg:col-start-9 lg:col-span-4 mt-28 md:mt-0">
+                <div className="order-first lg:order-last md:col-start-1 md:col-span-6 lg:col-start-9 lg:col-span-4 mt-20 md:mt-0">
                   <h3 className="text-[--light-primary] md:mt-0 mb-5">Complete the process and return to the Masterpiece section</h3>
                   <p className="text-[--dark-secondary] mb-5">After completing the process, students are directed to a success page that displays the skill badges earned for their work on the masterpiece.</p>
                   <p className="text-[--dark-secondary] mb-5">Students can then return to the Masterpiece page, where the updated layout now shows the masterpiece card element in its completed state.</p>
@@ -348,7 +348,7 @@ export default function CaseStudies() {
               </div>
 
               <div className="md:grid md:grid-cols-12 md:items-center pt-0 md:pt-20">
-                <div className="md:col-start-1 md:col-span-6 lg:col-start-1 lg:col-span-4 mt-28 md:mt-0">
+                <div className="md:col-start-1 md:col-span-6 lg:col-start-1 lg:col-span-4 mt-20 md:mt-0">
                   <h3 className="text-[--light-primary] mb-5">Designing the user journey for the mobile app version</h3>
                   <p className="text-[--dark-secondary] mb-5">As mentioned in the case study overview, in addition to the desktop touchpoint, student users also have access to a mobile app for managing all E-Portfolio sections.</p>
                   <p className="text-[--dark-secondary] mb-5">I designed the mobile version of the journey presented earlier, adapting layout elements such as the step progress to improve the user experience on mobile devices.</p>                
@@ -361,11 +361,11 @@ export default function CaseStudies() {
             </div>
           </div>
 
-          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-20 pb-10">
+          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-20 pb-5">
             <div className="relative container max-w-screen-xl mx-auto">
               <div className="md:grid md:grid-cols-12">
                 <div className="md:col-start-1 md:col-span-6 lg:col-start-1 lg:col-span-4">
-                  <h3 className="text-[--light-primary] mt-10 mb-5">Visuals of the Masterpiece section for students, designed by the UI team</h3>
+                  <h3 className="text-[--light-primary] mb-5">Visuals of the Masterpiece section for students, designed by the UI team</h3>
                   <p className="text-[--dark-secondary] mb-5">A selection of the final visuals created based on the wireframes I designed.</p>
                 </div>
               </div>
@@ -376,7 +376,7 @@ export default function CaseStudies() {
             <Image src={unicaMasterpieceUI} width={1680} height={1064} alt="Selection of UI pages of the Materpiece section" className="w-full block"/>
           </div>
 
-          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-10 md:pt-40 pb-10">
+          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-28 pb-10">
             <div className="relative container max-w-screen-xl mx-auto">
               <div className="md:grid md:grid-cols-12">
                 <div className="md:col-start-1 md:col-span-6 lg:col-start-1 lg:col-span-4">
@@ -394,7 +394,7 @@ export default function CaseStudies() {
             <Image src={unicaEportfolioMix} width={1680} height={947} alt="Mix of E-Portfolio wireframes for desktop and mobile devices" className="w-full block"/>
           </div>
 
-          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-20 pb-10">
+          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-10 pb-5">
             <div className="relative container max-w-screen-xl mx-auto">
               <div className="md:grid md:grid-cols-12">
                 <div className="md:col-start-1 md:col-span-6 lg:col-start-1 lg:col-span-4">
@@ -409,7 +409,7 @@ export default function CaseStudies() {
             <Image src={unicaEportfolioUIMix} width={1680} height={1064} alt="Selection of UI pages of the E-Portfolio section" className="w-full block"/>
           </div>
 
-          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-10 md:pt-40 pb-10">
+          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-28 pb-0">
             <div className="relative container max-w-screen-xl mx-auto">
               <div className="md:grid md:grid-cols-12">
                 <div className="md:col-start-1 md:col-span-6 lg:col-start-1 lg:col-span-4">
@@ -420,11 +420,11 @@ export default function CaseStudies() {
                   <p className="text-[--dark-secondary] mb-5">To give you an idea, below are a couple of screenshots showing all the pages I created for just two sections: Student Self-Assessment and Masterpiece.</p>
                 </div>
               </div>
-              <Image src={unicaEportfolioAllUsers} width={1234} height={775} alt="E-Portfolio wireframes for all user types" className="w-full block mt-10 mb-10"/>
+              <Image src={unicaEportfolioAllUsers} width={1234} height={775} alt="E-Portfolio wireframes for all user types" className="w-full block mt-10"/>
             </div>
           </div>
 
-          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-10 md:pt-40 pb-10">
+          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-28 pb-10">
             <div className="relative container max-w-screen-xl mx-auto">
               <div className="md:grid md:grid-cols-12">
                 <div className="md:col-start-1 md:col-span-6 lg:col-start-1 lg:col-span-4">
@@ -459,7 +459,7 @@ export default function CaseStudies() {
                   <Image src={unicaStatsViews} width={767} height={594} alt="Statistics data visualization" className="w-full block md:mb-10 mt-10 md:mt-0"/>
                 </div>
 
-                <div className="order-first lg:order-last md:col-start-1 md:col-span-6 lg:col-start-9 lg:col-span-4 mt-28 md:mt-0">
+                <div className="order-first lg:order-last md:col-start-1 md:col-span-6 lg:col-start-9 lg:col-span-4 mt-20 md:mt-0">
                   <h3 className="text-[--light-primary] md:mt-0 mb-5">Structure of data visualizations in the main areas of Statistics</h3>
                   <p className="text-[--dark-secondary] mb-5">Users can access the Statistics page through the main menu. After landing, a summary of each main area is displayed, along with CTAs to explore them further.</p>
                   <p className="text-[--dark-secondary] mb-5">Each area contains multiple data visualizations, which are structured as follows:</p>
@@ -474,7 +474,7 @@ export default function CaseStudies() {
               </div>
 
               <div className="md:grid md:grid-cols-12 md:items-center pt-0 md:pt-20">
-                <div className="md:col-start-1 md:col-span-6 lg:col-start-1 lg:col-span-4 mt-28 md:mt-0">
+                <div className="md:col-start-1 md:col-span-6 lg:col-start-1 lg:col-span-4 mt-20 md:mt-0">
                   <h3 className="text-[--light-primary] md:mt-0 mb-5">Helping users in understanding how to read and navigate the data</h3>
                   <p className="text-[--dark-secondary] mb-5">Considering the complexity of these pages, which contain vast amounts of information and multiple filters, I created a simple visual guide to assist users in interpreting the data.</p>
                   <p className="text-[--dark-secondary] mb-5">Users can access the guide through the fixed CTA “Guide to Statistics” located in the bottom right corner of each main area page.</p>
@@ -488,11 +488,11 @@ export default function CaseStudies() {
             </div>
           </div>
 
-          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-20 pb-10">
+          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-10 pb-5">
             <div className="relative container max-w-screen-xl mx-auto">
               <div className="md:grid md:grid-cols-12">
                 <div className="md:col-start-1 md:col-span-6 lg:col-start-1 lg:col-span-4">
-                  <h3 className="text-[--light-primary] mt-10 mb-5">Visuals of Statistics on education and work designed by the UI team</h3>
+                  <h3 className="text-[--light-primary] mb-5">Visuals of Statistics on education and work designed by the UI team</h3>
                   <p className="text-[--dark-secondary] mb-5">A selection of the final visuals created based on the wireframes I designed.</p>
                 </div>
               </div>
@@ -503,7 +503,7 @@ export default function CaseStudies() {
             <Image src={unicaStatsUIMix} width={1680} height={1064} alt="Selection of UI pages of the Statistics section" className="w-full block"/>
           </div>
 
-          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-10 md:pt-40 pb-40">
+          <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-28 pb-20 sm:pb-40">
             <div className="relative container max-w-screen-xl mx-auto">
               <div className="md:grid md:grid-cols-12">
                 <div className="md:col-start-1 md:col-span-6 lg:col-start-1 lg:col-span-4">
@@ -536,7 +536,7 @@ export default function CaseStudies() {
         
 
        {/* Results section */}
-       <div className="relative w-screen bg-[--light-primary] px-5 sm:px-10 mt-20">
+       <div className="relative w-screen bg-[--light-primary] px-5 sm:px-10 mt-16 sm:mt-10">
        <span className="text-[80px] ml-[-40px] sm:text-[120px] sm:ml-[-70px] md:text-[240px] md:ml-[-70px] font-bold text-[--dark-secondary] opacity-20">Results</span>
           <div className="relative container max-w-screen-sm mx-auto mt-0 md:mt-[-115px]">
             <p className="uppercase text-[19px] leading-[23px] md:text-[21px] md:leading-[27px] text-[--dark-primary] mb-10"><span className="font-bold">Over 1 million applications</span> for enrollment in the 2024/25 school year were submitted through the platform.</p>
@@ -550,7 +550,7 @@ export default function CaseStudies() {
         </div>
 
         {/* Next cases section */}
-        <div className="relative w-screen bg-[--light-primary] px-5 sm:px-10 mt-20">
+        <div className="relative w-screen bg-[--light-primary] px-5 sm:px-10 mt-16 sm:mt-10">
           <span className="text-[80px] ml-[-40px] sm:text-[120px] whitespace-nowrap sm:ml-[-70px] md:text-[240px] md:ml-[-70px] font-bold text-[--dark-secondary] opacity-20">Next Cases</span>          
           <div className="md:flex md:justify-between container max-w-screen-xl mx-auto mt-5 md:mt-[-40px] relative z-[50]">
               <div className=" md:mr-5">
