@@ -277,7 +277,6 @@ export default function CaseStudies() {
             </div>
           </div>
 
-          
           <div className="w-screen grid grid-cols-1 md:grid-cols-12 gap-2 bg-[--dark-primary]">
             <div className="md:col-start-1 md:col-span-4 bg-gradient-to-br from-[#FBBBC1] to-[#FE7D69] p-10">
               <Image src={threeukVariant1} width={451} height={307} alt="Dashboard variant with widgets" className="w-full block"/>
@@ -310,7 +309,6 @@ export default function CaseStudies() {
             </div>
           </div>
 
-          
           <div className="w-screen grid grid-cols-1 md:grid-cols-12 gap-2 bg-[--dark-primary]">
             <div className="md:col-start-1 md:col-span-4 bg-gradient-to-br from-[#FBBBC1] to-[#FE7D69] p-10">
               <Image src={threeukMainNavTop} width={451} height={303} alt="Dashboard top navigation" className="w-full block"/>
@@ -352,37 +350,38 @@ export default function CaseStudies() {
 
           <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pb-10">
             <div className="relative container max-w-screen-xl mx-auto">
-              <div className="md:grid md:grid-cols-12 md:items-center">
-                <div className="md:col-start-1 md:col-span-6 lg:col-start-1 lg:col-span-4">
-                  <h3 className="text-[--light-primary] mb-5">Add new line</h3>
-                  <p className="text-[--dark-secondary] mb-5">The journey has been divided in 6 steps where the user has to input all the required information to complete the action.</p>
-                  <p className="text-[--dark-secondary] mb-5">The layout is composed of 2 columns:</p>
-                  <ul className="list-disc pl-8 mb-6">
-                    <li className="text-[--dark-secondary] mb-2">Left column shows the first request to the user such as “Department selection”</li>
-                    <li className="text-[--dark-secondary] mb-2">Right column shows related information to be filled based on the first request</li>
-                  </ul>  
-                  <p className="text-[--dark-secondary] mb-5">The user can go to the next step only if all the required info are inputted, while he can go back to any previous step with the related “Edit” link.</p>
-                  <p className="text-[--dark-secondary] mb-5">Once the process is completed a successful message is displayed and it shows the updated number of lines with useful information.</p>
-                </div>
+
+                <div className="md:grid md:grid-cols-12 md:items-center">
+                    <div className="md:col-start-1 md:col-span-6 lg:col-start-1 lg:col-span-4">
+                    <h3 className="text-[--light-primary] mb-5">Add new line</h3>
+                    <p className="text-[--dark-secondary] mb-5">The journey has been divided in 6 steps where the user has to input all the required information to complete the action.</p>
+                    <p className="text-[--dark-secondary] mb-5">The layout is composed of 2 columns:</p>
+                    <ul className="list-disc pl-8 mb-6">
+                        <li className="text-[--dark-secondary] mb-2">Left column shows the first request to the user such as “Department selection”</li>
+                        <li className="text-[--dark-secondary] mb-2">Right column shows related information to be filled based on the first request</li>
+                    </ul>  
+                    <p className="text-[--dark-secondary] mb-5">The user can go to the next step only if all the required info are inputted, while he can go back to any previous step with the related “Edit” link.</p>
+                    <p className="text-[--dark-secondary] mb-5">Once the process is completed a successful message is displayed and it shows the updated number of lines with useful information.</p>
+                    </div>
                 
-                <div className="md:col-start-1 md:col-span-12 lg:col-start-6 lg:col-span-7">
-                  <Image src={threeukAddLine} width={709} height={743} alt="Wireframe for the journey Add a line" className="w-full block md:mb-10 mt-10 md:mt-0"/>
-                </div>
-              </div>
-
-              <div className="grid md:grid md:grid-cols-12 md:items-center">
-                <div className="order-last lg:order-first md:col-start-1 md:col-span-12 lg:col-start-1 lg:col-span-7">
-                  <Image src={threeukRaiseCase} width={712} height={633} alt="Wireframe for the journey Raise a case" className="w-full block md:mb-10 mt-10 md:mt-0"/>
+                    <div className="md:col-start-1 md:col-span-12 lg:col-start-6 lg:col-span-7">
+                        <Image src={threeukAddLine} width={709} height={743} alt="Wireframe for the journey Add a line" className="w-full block md:mb-10 mt-10 md:mt-0"/>
+                    </div>
                 </div>
 
-                <div className="order-first lg:order-last md:col-start-1 md:col-span-6 lg:col-start-9 lg:col-span-4 mt-20 md:mt-0">
-                  <h3 className="text-[--light-primary] mt-10 md:mt-0 mb-5">Raise a case</h3>
-                  <p className="text-[--dark-secondary] mb-5">The layout is a simple one column that clearly shows the form with all the required information to raise a case.</p>
-                  <p className="text-[--dark-secondary] mb-5">If users have a dedicated Customer Success Manager, the related box with its name, surname and contact number is displayed before the form.</p>
-                  <p className="text-[--dark-secondary] mb-5">Once the process is completed a succesfull message is displayed and it shows the case reference number  with useful related information.</p>
-                </div>              
-        
-              </div>
+                <div className="grid md:grid md:grid-cols-12 md:items-center">
+                    <div className="order-last lg:order-first md:col-start-1 md:col-span-12 lg:col-start-1 lg:col-span-7">
+                    <Image src={threeukRaiseCase} width={712} height={633} alt="Wireframe for the journey Raise a case" className="w-full block md:mb-10 mt-10 md:mt-0"/>
+                    </div>
+
+                    <div className="order-first lg:order-last md:col-start-1 md:col-span-6 lg:col-start-9 lg:col-span-4 mt-20 md:mt-0">
+                        <h3 className="text-[--light-primary] mt-10 md:mt-0 mb-5">Raise a case</h3>
+                        <p className="text-[--dark-secondary] mb-5">The layout is a simple one column that clearly shows the form with all the required information to raise a case.</p>
+                        <p className="text-[--dark-secondary] mb-5">If users have a dedicated Customer Success Manager, the related box with its name, surname and contact number is displayed before the form.</p>
+                        <p className="text-[--dark-secondary] mb-5">Once the process is completed a succesfull message is displayed and it shows the case reference number  with useful related information.</p>
+                    </div>                    
+                </div>
+
             </div>
           </div>
 
@@ -406,6 +405,7 @@ export default function CaseStudies() {
 
           <div className="w-screen bg-[--dark-primary] px-5 sm:px-10 pt-10 md:pt-40 pb-10 md:pb-40">
             <div className="relative container max-w-screen-xl mx-auto">
+
               <div className="md:grid md:grid-cols-12">
                 <div className="md:col-start-1 md:col-span-6 lg:col-start-1 lg:col-span-4">
                   <span className="block text-[15px] text-[--dark-secondary]">9 / 9</span>
@@ -435,24 +435,24 @@ export default function CaseStudies() {
                 </div>
               </div>
 
-             
               <div className="md:grid md:grid-cols-12 mt-10 mb-5">
                 <div className="md:col-start-1 md:col-span-6 lg:col-start-1 lg:col-span-4">               
                   <h3 className="text-[--light-primary] mt-10 mb-5">Final UI mockups</h3>
                   <p className="text-[--dark-secondary] mb-0">Active side navigation</p>
                 </div>
-              </div>    
-              <Image src={threeukMockup1} width={1234} height={575475401} alt="Dashboard final user interface mockup" className="w-full rounded-[20px] block mb-10"/>   
+              </div>  
+              <Image src={threeukMockup1} width={1234} height={785} alt="Dashboard final user interface mockup" className="w-full rounded-[20px] block mb-10"/>   
 
               <div className="md:grid md:grid-cols-12 mt-20">
                 <div className="md:col-start-1 md:col-span-6 lg:col-start-1 lg:col-span-4">               
                   <p className="text-[--dark-secondary] mb-5">Collapsed side navigation</p>
                 </div>
               </div>    
-              <Image src={threeukMockup2} width={1234} height={575475401} alt="Dashboard final user interface mockup" className="w-full rounded-[20px] block mb-10"/>            
+              <Image src={threeukMockup2} width={1234} height={785} alt="Dashboard final user interface mockup" className="w-full rounded-[20px] block mb-10"/>            
 
             </div>
           </div>
+
         </div>
 
        {/* Results section */}
