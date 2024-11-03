@@ -13,10 +13,11 @@ module.exports = {
       },
       animation: {
         'spin': 'spin 5s linear infinite',
-        'rotate-right': 'rotateRight 20s linear infinite',
+        'rotate-right': 'rotateRight 20s ease-in-out infinite',
         'rotate-left': 'rotateLeft 20s linear infinite',
-        'rotate-right-fast': 'rotateRight 10s linear infinite',
-        'rotate-left-fast': 'rotateLeft 10s linear infinite',
+        'rotate-right-fast': 'rotateRight 10s ease-in-out infinite',
+        'rotate-left-fast': 'rotateLeft 10s ease-in-out infinite',
+        'scale-slow': 'scaleSlow 20s ease-in-out infinite'
       },
       keyframes: {
         spin: {
@@ -27,6 +28,11 @@ module.exports = {
         },
         rotateLeft: {
           '100%': { transform: 'rotate(-360deg)' },
+        },
+        scaleSlow: {
+          '0': { transform: 'scale(1)' },
+          '50%': { transform: 'scale(2)' },
+          '100%': { transform: 'scale(1)' },
         }
       }
     },

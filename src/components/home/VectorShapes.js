@@ -3,7 +3,7 @@ function VectorShapes() {
     return (
         
                 
-        <div className="absolute z-[0] h-screen w-screen flex justify-center items-center overflow-visible">
+        <div className="absolute z-[0] h-screen w-screen flex justify-center items-center overflow-visible animate-scale-slow opacity-75">
 
             {/* // Poly 1 */}      
             <div className="absolute z-[0] h-screen w-screen flex justify-center items-center overflow-visible">
