@@ -20,6 +20,7 @@ import unicaEportfolioJourneys from '../../../public/caseStudies/unica/unica-epo
 import unicaMasterpieceStart from '../../../public/caseStudies/unica/unica-masterpiece-start.png';
 import unicaMasterpieceUpload from '../../../public/caseStudies/unica/unica-masterpiece-upload.png';
 import unicaMasterpieceSaveDraft from '../../../public/caseStudies/unica/unica-masterpiece-save-draft.png';
+import unicaMasterpieceCompleteProcess from '../../../public/caseStudies/unica/unica-masterpiece-complete-process.png';
 import unicaMasterpieceMobile from '../../../public/caseStudies/unica/unica-masterpiece-mobile.png';
 import unicaMasterpieceUI from '../../../public/caseStudies/unica/unica-masterpiece-ui.png';
 import unicaEportfolioMix from '../../../public/caseStudies/unica/unica-eportfolio-wireframe-mix.png';
@@ -338,7 +339,7 @@ export default function CaseStudies() {
 
               <div className="grid md:grid md:grid-cols-12 md:items-center pt-0 md:pt-20">
                 <div className="order-last lg:order-first md:col-start-1 md:col-span-12 lg:col-start-1 lg:col-span-7">
-                  <Image src={unicaMasterpieceUpload} width={705} height={664} alt="How to upload the masterpiece" className="w-full block md:mb-10 mt-10 md:mt-0"/>
+                  <Image src={unicaMasterpieceCompleteProcess} width={710} height={669} alt="How to restore the upload process and finalize piece" className="w-full block md:mb-10 mt-10 md:mt-0"/>
                 </div>
 
                 <div className="order-first lg:order-last md:col-start-1 md:col-span-6 lg:col-start-9 lg:col-span-4 mt-20 md:mt-0">

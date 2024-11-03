@@ -94,7 +94,7 @@ export default function About() {
 
           <div className="md:grid md:grid-cols-12 pt-28 pb-10">
             <div className="md:col-start-1 md:col-span-6 lg:col-start-1 lg:col-span-4">
-              <h2 className="text-[--light-primary]">I learned in the field how to manage a project using a structured process to deliver effective digital products</h2>
+              <h2 className="text-[--light-primary]">I learned in the field how to manage projects through a structured process, ensuring effective digital product delivery</h2>
             </div>
           </div>
 

@@ -17,7 +17,7 @@ export default function Contact() {
                 <div className="">
                   <div className="block">
                     <h2 className="text-[--dark-secondary] mb-3">Confused and with <span className="text-[--dark-primary] uppercase">no idea</span> what you need?</h2>
-                    <p className="text-[--dark-secondary] mb-5">Users struggle to find their way due to unclear menus or poor structure. This leads to frustration and higher bounce rates.</p>
+                    <p className="text-[--dark-secondary] mb-5">Don't panic! Send me an email explaining your situation and needs/issues, and together we will figure out what you may need.</p>
                     <ExternalTextLink color="dark" href="mailto:mau.micozzi@gmail.com" text="Send me an email" />
                   </div>
                 </div>

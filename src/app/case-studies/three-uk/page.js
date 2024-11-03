@@ -67,7 +67,7 @@ export default function CaseStudies() {
                   </div>
                   <div className="mb-5">
                     <p className="text-[--dark-secondary]">Period</p>
-                    <p className="">Aug - Sept 2022</p>
+                    <p className="">Jul - Aug 2022</p>
                   </div>
               
                 
@@ -93,7 +93,7 @@ export default function CaseStudies() {
                   <p className="text-[--dark-secondary] mb-5">Three Business was on a rapid growth trajectory, aiming to prioritize a digital-first approach for both customer and channel experiences.</p>
                   <p className="text-[--dark-secondary] mb-5">The client noted that in nearly all recent corporate bids, the need for a corporate self-service portal ranked as a top priority. Delivering digital self-service capabilities was crucial to success, particularly for their medium to large corporate customers.</p>
                   <p className="text-[--dark-secondary] font-bold mb-5">At the time, Three was the only MNO without a corporate portal, limiting their ability to compete effectively in the market.</p>
-                  <p className="text-[--dark-secondary] mb-5">In June 2022, I joined the UX Research team at NTT Data UK for the 2-3 month "Discovery Phase" to help create the MVP for the portal.</p>
+                  <p className="text-[--dark-secondary] mb-5">/Users/mauromicozzi/Downloads/unica-masterpiece-complete-process.png</p>
                 </div>
               </div>
 

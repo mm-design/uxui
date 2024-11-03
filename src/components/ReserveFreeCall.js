@@ -19,9 +19,9 @@ function ReserveFreeCall() {
 
                 <div className="block text-right mt-0 mr-5 sm:mr-0"><ReserveFreeCallCTA /></div>
                 
-                <div className="max-w-sm">
-                    <h3 className="text-[--dark-primary] mt-4">Why you should reserve your spot now:</h3>
-                    <ul className="pl-5 mt-5">
+                <div className="max-w-sm mt-8 sm:mt-0">
+                    <h3 className="text-[--dark-primary] mt-4">Why reserve your spot now:</h3>
+                    <ul className="pl-5 pr-5 sm:pr-0 mt-5">
                         <li className="flex justify-items-start mb-4">
                             <div className="block scale-90"><TickIconList /></div>
                             <p className="ml-3 mt-[2px] text-[--dark-secondary]">Receive instant feedback from a design expert with over 10 years of experience</p>
