@@ -3,7 +3,7 @@ import VectorX from "@/components/home/VectorX";
 import VectorTick from "@/components/home/VectorTick";
 import TextLink from "@/components/TextLink";
 import Image from "next/image";
-import profilePic from '../public/placeholder.jpg';
+import profilePic from '../public/mauro-micozzi.jpeg';
 import ReserveFreeCall from "@/components/ReserveFreeCall";
 import ContactBanner from "@/components/ContactBanner";
 import CaseCard from "@/components/caseStudies/CaseCard";
@@ -116,7 +116,7 @@ export default function Home() {
           <p className="text-[--dark-secondary] mb-3 sm:max-w-sm">With over 10 years of experience in international digital agencies and corporates, I bring the expertise needed to elevate your digital product.</p>
           <p className="text-[--dark-secondary] mb-5 sm:max-w-sm">The impact of an entire agency, delivered by “just” one person.</p>
           <TextLink href="/about" text="Read more about me" color="light" />
-          <Image src={profilePic} width={604} height={783} alt="Mauro Micozzi UX UI Designer" className="rounded-[40px] mt-20 mx-auto"/>
+          <Image src={profilePic} width={600} height={600} alt="Mauro Micozzi UX UI Designer" className="rounded-[40px] mt-20 lg:mt-10 mx-auto"/>
         </div>
       </div>
 

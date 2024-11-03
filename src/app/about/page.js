@@ -1,6 +1,6 @@
 import Image from "next/image";
 import ExternalTextLink from "@/components/ExternalTextLink";
-import profilePic from '../../public/placeholder.jpg';
+import profilePic from '../../public/mauro-micozzi.jpeg';
 import NTTLogo from "@/components/about/NTTLogo";
 import TangityLogo from "@/components/about/TangityLogo";
 import PokerStarsLogo from "@/components/about/PokerStarsLogo";
@@ -56,7 +56,7 @@ export default function About() {
             <div className="mb-5 inline-block mx-auto mt-5">
                 <ExternalTextLink color="light" href="https://www.dropbox.com/scl/fi/uijuoczyspep80gsprteq/resume-mauro-micozzi.pdf?rlkey=yzyn0rhakbnjre3n6rotmgrwo&e=1&st=l65wuz7o&dl=0" target="_blank" text="View resume in pdf" />
             </div>
-            <Image src={profilePic} width={604} height={783} alt="Mauro Micozzi UX UI Designer" className="rounded-[40px] mt-10 mx-auto"/>
+            <Image src={profilePic} width={600} height={600} alt="Mauro Micozzi UX UI Designer" className="rounded-[40px] mt-20 lg:mt-10 mx-auto"/>
         </div>
 
         <div className="relative container max-w-screen-xl mx-auto pt-28 pb-10">
