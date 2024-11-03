@@ -54,7 +54,7 @@ export default function About() {
             <p className="text-[--dark-secondary] mb-3">Hi there! I’m Mauro Micozzi</p>
             <h1 className="text-[--light-primary] mb-2">Freelance UX/UI designer and front-end developer</h1>
             <div className="mb-5 inline-block mx-auto mt-5">
-                <ExternalTextLink color="light" href="https://www.dropbox.com/scl/fi/uijuoczyspep80gsprteq/resume-mauro-micozzi.pdf?rlkey=yzyn0rhakbnjre3n6rotmgrwo&e=1&st=l65wuz7o&dl=0" target="_blank" text="View resume in pdf" />
+                <ExternalTextLink color="light" href="https://www.dropbox.com/scl/fi/2m4s83300a4fl43215evg/Resume-MauroMicozzi-UX-UI.pdf?rlkey=imh0fq35tplftkc3m5rmeowyf&st=q60c1giw&dl=0" target="_blank" text="View resume" />
             </div>
             <Image src={profilePic} width={600} height={600} alt="Mauro Micozzi UX UI Designer" className="rounded-[40px] mt-20 lg:mt-10 mx-auto"/>
         </div>
